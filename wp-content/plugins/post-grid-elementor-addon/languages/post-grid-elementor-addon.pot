@@ -1,0 +1,304 @@
+# Copyright (C) 2023 WP Hait
+# This file is distributed under the same license as the Post Grid Elementor Addon package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Grid Elementor Addon 2.0.13\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/post-grid-elementor-addon\n"
+"POT-Creation-Date: 2023-07-28 09:57:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: node-wp-i18n 1.2.7\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Post Grid Elementor Addon"
+msgstr ""
+
+#: inc/admin.php:18
+msgid "Version: %s"
+msgstr ""
+
+#: inc/admin.php:248
+msgid "Our Themes"
+msgstr ""
+
+#: plugin.php:87
+msgid "WPC Elements"
+msgstr ""
+
+#: plugin.php:103
+msgid "Welcome"
+msgstr ""
+
+#: plugin.php:111
+msgid "Go Pro"
+msgstr ""
+
+#: post-grid-elementor-addon.php:154
+#. translators: 1: Plugin name 2: Elementor
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: post-grid-elementor-addon.php:156 post-grid-elementor-addon.php:179
+msgid "Elementor"
+msgstr ""
+
+#: post-grid-elementor-addon.php:177 post-grid-elementor-addon.php:201
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: post-grid-elementor-addon.php:203
+msgid "PHP"
+msgstr ""
+
+#: widgets/post-grid.php:24
+msgid "Post Grid"
+msgstr ""
+
+#: widgets/post-grid.php:87 widgets/post-grid.php:397
+msgid "Layout"
+msgstr ""
+
+#: widgets/post-grid.php:94
+msgid "Grid Style"
+msgstr ""
+
+#: widgets/post-grid.php:98
+msgid "Layout 1"
+msgstr ""
+
+#: widgets/post-grid.php:99
+msgid "Layout 2"
+msgstr ""
+
+#: widgets/post-grid.php:100
+msgid "Layout 3"
+msgstr ""
+
+#: widgets/post-grid.php:101
+msgid "Layout 4"
+msgstr ""
+
+#: widgets/post-grid.php:102
+msgid "Layout 5"
+msgstr ""
+
+#: widgets/post-grid.php:110
+msgid "Columns"
+msgstr ""
+
+#: widgets/post-grid.php:132
+msgid "Posts Per Page"
+msgstr ""
+
+#: widgets/post-grid.php:141 widgets/post-grid.php:617
+msgid "Image"
+msgstr ""
+
+#: widgets/post-grid.php:143 widgets/post-grid.php:168
+#: widgets/post-grid.php:236 widgets/post-grid.php:273
+msgid "Show"
+msgstr ""
+
+#: widgets/post-grid.php:144 widgets/post-grid.php:169
+#: widgets/post-grid.php:237 widgets/post-grid.php:274
+msgid "Hide"
+msgstr ""
+
+#: widgets/post-grid.php:166 widgets/post-grid.php:365
+#: widgets/post-grid.php:659
+msgid "Title"
+msgstr ""
+
+#: widgets/post-grid.php:178
+msgid "Title HTML Tag"
+msgstr ""
+
+#: widgets/post-grid.php:201
+msgid "Meta Data"
+msgstr ""
+
+#: widgets/post-grid.php:207
+msgid "Author"
+msgstr ""
+
+#: widgets/post-grid.php:208 widgets/post-grid.php:364
+msgid "Date"
+msgstr ""
+
+#: widgets/post-grid.php:209 widgets/post-grid.php:340
+msgid "Categories"
+msgstr ""
+
+#: widgets/post-grid.php:210
+msgid "Comments"
+msgstr ""
+
+#: widgets/post-grid.php:219
+msgid "Separator Between"
+msgstr ""
+
+#: widgets/post-grid.php:234
+msgid "Excerpt"
+msgstr ""
+
+#: widgets/post-grid.php:246
+msgid "Excerpt Length"
+msgstr ""
+
+#: widgets/post-grid.php:259
+msgid "Excerpt Append"
+msgstr ""
+
+#: widgets/post-grid.php:271 widgets/post-grid.php:867
+msgid "Read More"
+msgstr ""
+
+#: widgets/post-grid.php:283
+msgid "Read More Text"
+msgstr ""
+
+#: widgets/post-grid.php:285
+msgid "Read More »"
+msgstr ""
+
+#: widgets/post-grid.php:295
+msgid "Alignment"
+msgstr ""
+
+#: widgets/post-grid.php:299
+msgid "Left"
+msgstr ""
+
+#: widgets/post-grid.php:303
+msgid "Center"
+msgstr ""
+
+#: widgets/post-grid.php:307
+msgid "Right"
+msgstr ""
+
+#: widgets/post-grid.php:331
+msgid "Query"
+msgstr ""
+
+#: widgets/post-grid.php:352
+msgid "Advanced"
+msgstr ""
+
+#: widgets/post-grid.php:360
+msgid "Order By"
+msgstr ""
+
+#: widgets/post-grid.php:366
+msgid "Random"
+msgstr ""
+
+#: widgets/post-grid.php:374
+msgid "Order"
+msgstr ""
+
+#: widgets/post-grid.php:378
+msgid "ASC"
+msgstr ""
+
+#: widgets/post-grid.php:379
+msgid "DESC"
+msgstr ""
+
+#: widgets/post-grid.php:406
+msgid "Columns margin"
+msgstr ""
+
+#: widgets/post-grid.php:428
+msgid "Rows margin"
+msgstr ""
+
+#: widgets/post-grid.php:458
+msgid "Box"
+msgstr ""
+
+#: widgets/post-grid.php:467
+msgid "Border Widget"
+msgstr ""
+
+#: widgets/post-grid.php:480 widgets/post-grid.php:626
+#: widgets/post-grid.php:1007
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/post-grid.php:501 widgets/post-grid.php:1028
+msgid "Padding"
+msgstr ""
+
+#: widgets/post-grid.php:516 widgets/post-grid.php:682
+#: widgets/post-grid.php:893
+msgid "Normal"
+msgstr ""
+
+#: widgets/post-grid.php:525 widgets/post-grid.php:570
+#: widgets/post-grid.php:917 widgets/post-grid.php:966
+msgid "Background Color"
+msgstr ""
+
+#: widgets/post-grid.php:538 widgets/post-grid.php:583
+#: widgets/post-grid.php:929 widgets/post-grid.php:978
+msgid "Border Color"
+msgstr ""
+
+#: widgets/post-grid.php:561 widgets/post-grid.php:707
+#: widgets/post-grid.php:942
+msgid "Hover"
+msgstr ""
+
+#: widgets/post-grid.php:638 widgets/post-grid.php:734
+#: widgets/post-grid.php:791 widgets/post-grid.php:847
+#: widgets/post-grid.php:1041
+msgid "Margin"
+msgstr ""
+
+#: widgets/post-grid.php:691 widgets/post-grid.php:716
+#: widgets/post-grid.php:776 widgets/post-grid.php:833
+#: widgets/post-grid.php:902 widgets/post-grid.php:951
+msgid "Color"
+msgstr ""
+
+#: widgets/post-grid.php:754
+msgid "Meta"
+msgstr ""
+
+#: widgets/post-grid.php:811
+msgid "Content"
+msgstr ""
+
+#: widgets/post-grid.php:994
+msgid "Border Width"
+msgstr ""
+
+#: widgets/post-grid.php:1222
+msgid ", "
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wphait.com/plugins/post-grid-elementor-addon/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Elementor page builder addon to display posts in a grid. Useful for "
+"generating post grid from your blog posts with multiple options."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Hait"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wphait.com/"
+msgstr ""

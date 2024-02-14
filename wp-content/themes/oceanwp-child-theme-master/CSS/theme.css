@@ -1,0 +1,39 @@
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #FFFF;
+    padding: 10px; /* Espace intérieur du pied de page */
+ }
+ 
+ footer p {
+    margin: 20px;
+    top: 60px;
+    left: 66px;
+ }
+ 
+ .footer-text {
+    font-size: 16px;
+ }
+ 
+ .footer-img {
+    margin-bottom: 30px;
+ 
+ }
+
+ /* Supprime les marges supérieures et inférieures des blocs */
+.wp-block {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Supprime les marges internes des conteneurs de colonnes */
+.wp-block-column {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Supprime les marges internes des groupes de blocs */
+.wp-block-group {
+    padding-left: 0;
+    padding-right: 0;
+}
