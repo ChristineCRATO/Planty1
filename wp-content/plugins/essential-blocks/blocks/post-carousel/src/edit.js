@@ -109,6 +109,19 @@ export default function Edit(props) {
     const TABslideToShowRanges = TABslideToShowRange ? TABslideToShowRange : 2;
     const MOBslideToShowRanges = MOBslideToShowRange ? MOBslideToShowRange : 1;
 
+    /**
+     * func slideToShowCount
+     * @param {number} range
+     * @param {object} posts
+     * @returns {number}
+     */
+    const slideToShowCount = (range, posts) => {
+        if (typeof posts === 'object' && Object.keys(posts).length < range) {
+            return Object.keys(posts).length
+        }
+        return range
+    }
+
     const settings = {
         arrows,
         autoplay,
@@ -116,7 +129,7 @@ export default function Edit(props) {
         dots,
         infinite,
         pauseOnHover,
-        slidesToShow: slideToShowRange,
+        slidesToShow: slideToShowCount(slideToShowRange, queryResults),
         speed,
         prevArrow: <SlickArrow faClass={leftArrowIcon} />,
         nextArrow: <SlickArrow faClass={rightArrowIcon} />,
@@ -124,13 +137,13 @@ export default function Edit(props) {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: TABslideToShowRanges,
+                    slidesToShow: slideToShowCount(TABslideToShowRanges, queryResults),
                 },
             },
             {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: MOBslideToShowRanges,
+                    slidesToShow: slideToShowCount(MOBslideToShowRanges, queryResults),
                 },
             },
         ],

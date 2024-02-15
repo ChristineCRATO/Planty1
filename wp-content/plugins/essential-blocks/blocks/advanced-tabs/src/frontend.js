@@ -55,8 +55,12 @@ window.addEventListener("DOMContentLoaded", () => {
                     "data-title-custom-id"
                 );
                 if (customId === hashTag) {
-                    titleLiTag.classList.add("active");
+                    for (const titleLiTag of tabTitlesLiTags) {
+                        titleLiTag.classList.add("inactive");
+                        titleLiTag.classList.remove("active");
+                    }
                     titleLiTag.classList.remove("inactive");
+                    titleLiTag.classList.add("active");
                     hashMatched = true;
                     const tabContentWrappers = titleListsWrap.closest(
                         ".eb-advanced-tabs-wrapper"
@@ -74,10 +78,6 @@ window.addEventListener("DOMContentLoaded", () => {
                             tabContentWrap.classList.remove("active");
                         }
                     }
-                } else {
-                    hashMatched = false;
-                    titleLiTag.classList.add("inactive");
-                    titleLiTag.classList.remove("active");
                 }
             }
 

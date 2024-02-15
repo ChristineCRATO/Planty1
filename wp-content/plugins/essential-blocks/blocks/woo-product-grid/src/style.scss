@@ -371,13 +371,13 @@
 	z-index: 9999;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
 	.eb-woo-products-gallery.list-preset-1 .eb-woo-product .eb-woo-product-image-wrapper {
 		width: 40%;
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
 	.eb-woo-products-gallery.list-preset-1 .eb-woo-product {
 		flex-direction: column;
 	}

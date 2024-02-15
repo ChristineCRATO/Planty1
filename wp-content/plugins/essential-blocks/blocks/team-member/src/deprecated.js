@@ -16,7 +16,18 @@ const deprecated = [
         supports: {
             align: ["wide", "full"],
         },
-        save: ({ attributes }) => {
+        migrate(attributes) {
+            const { imageUrl } = attributes;
+            console.log('deprecated', imageUrl)
+            const newAttributes = { ...attributes };
+            // delete newAttributes.selectedIcon;
+
+            return {
+                ...newAttributes,
+                // infoboxIcon: selectedIcon,
+            };
+        },
+        save: (props) => {
             const {
                 blockId,
                 name,
@@ -39,7 +50,7 @@ const deprecated = [
                 showDesignation,
                 hoverPreset,
                 isContentOverlay,
-            } = attributes;
+            } = props.attributes;
 
             return (
                 <div {...useBlockProps.save()}>

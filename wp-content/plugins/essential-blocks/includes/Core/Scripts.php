@@ -7,7 +7,8 @@ use EssentialBlocks\blocks\WPForms;
 use EssentialBlocks\blocks\FluentForms;
 use EssentialBlocks\Traits\HasSingletone;
 
-class Scripts {
+class Scripts
+{
     use HasSingletone;
 
     private $is_gutenberg_editor = false;
@@ -16,10 +17,11 @@ class Scripts {
 
     public $plugin = null;
 
-    public function __construct() {
-        $eb_settings               = get_option( 'eb_settings', [] );
-        $this->isEnableFontAwesome = ! empty( $eb_settings['enableFontawesome'] ) ? $eb_settings['enableFontawesome'] : 'true';
-        $this->isEnableGoogleFont  = ! empty( $eb_settings['googleFont'] ) ? $eb_settings['googleFont'] : 'true';
+    public function __construct()
+    {
+        $eb_settings               = get_option( 'eb_settings', [  ] );
+        $this->isEnableFontAwesome = ! empty( $eb_settings[ 'enableFontawesome' ] ) ? $eb_settings[ 'enableFontawesome' ] : 'true';
+        $this->isEnableGoogleFont  = ! empty( $eb_settings[ 'googleFont' ] ) ? $eb_settings[ 'googleFont' ] : 'true';
         add_action(
             'init',
             function () {
@@ -31,17 +33,21 @@ class Scripts {
         // Enqueue Assets Only for FSE
         global $pagenow;
         if ( $pagenow === 'site-editor.php' ) {
-            add_action( 'admin_init', [$this, 'block_editor_assets'], 1 );
-            add_action( 'admin_init', [$this, 'frontend_backend_assets'] );
+            add_action( 'admin_init', [ $this, 'block_editor_assets' ], 1 );
+            add_action( 'admin_init', [ $this, 'frontend_backend_assets' ] );
         }
 
-        add_action( 'enqueue_block_editor_assets', [$this, 'block_editor_assets'] );
-        add_action( 'enqueue_block_editor_assets', [$this, 'frontend_backend_assets'] );
-        add_action( 'wp_enqueue_scripts', [$this, 'frontend_backend_assets'] );
-        add_action( 'init', [$this, 'localize_enqueue_scripts'] );
+        add_action( 'enqueue_block_editor_assets', [ $this, 'block_editor_assets' ] );
+        add_action( 'enqueue_block_editor_assets', [ $this, 'frontend_backend_assets' ] );
+        add_action( 'wp_enqueue_scripts', [ $this, 'frontend_backend_assets' ] );
+        add_filter( 'eb_generated_css_frontend_deps', function ( $deps ) {
+            return array_merge( $deps, [ 'essential-blocks-frontend-style' ] );
+        } );
+        add_action( 'init', [ $this, 'localize_enqueue_scripts' ] );
     }
 
-    public function block_editor_assets() {
+    public function block_editor_assets()
+    {
         $this->is_gutenberg_editor = true;
 
         global $pagenow;
@@ -54,12 +60,13 @@ class Scripts {
         wpdev_essential_blocks()->assets->register( 'masonry', 'js/masonry.min.js' );
         wpdev_essential_blocks()->assets->register( 'slickjs', 'js/slick.min.js' );
         wpdev_essential_blocks()->assets->register( 'patterns', 'js/eb-patterns.js' );
+        wpdev_essential_blocks()->assets->register( 'editor-breakpoint', 'js/eb-editor-breakpoint.js' );
         wpdev_essential_blocks()->assets->register(
             'controls-util',
             '../dist/modules.js',
             [
                 'essential-blocks-blocks-localize'
-            ]
+             ]
         );
 
         $editor_scripts_deps = [
@@ -73,17 +80,18 @@ class Scripts {
             'essential-blocks-masonry',
             'essential-blocks-typedjs',
             'essential-blocks-slickjs',
-            'essential-blocks-patterns'
-        ];
+            'essential-blocks-patterns',
+            'essential-blocks-editor-breakpoint'
+         ];
 
         if ( $pagenow !== 'widgets.php' ) {
             //global-styles
-            wpdev_essential_blocks()->assets->register( 'global-styles', '../lib/global-styles/dist/index.js');
-            $editor_scripts_deps[] = 'essential-blocks-global-styles';
+            wpdev_essential_blocks()->assets->register( 'global-styles', '../lib/global-styles/dist/index.js' );
+            $editor_scripts_deps[  ] = 'essential-blocks-global-styles';
 
             //templately-installer
             wpdev_essential_blocks()->assets->register( 'templately-installer', '../lib/templately-installer/dist/index.js' );
-            $editor_scripts_deps[] = 'essential-blocks-templately-installer';
+            $editor_scripts_deps[  ] = 'essential-blocks-templately-installer';
         }
 
         wpdev_essential_blocks()->assets->register( 'editor-script', '../dist/index.js', $editor_scripts_deps );
@@ -102,27 +110,27 @@ class Scripts {
             'essential-blocks-frontend-style',
             'essential-blocks-block-common',
             'essential-blocks-common-style'
-        ];
+         ];
 
         if ( $this->isEnableFontAwesome == 'true' ) {
-            $editor_styles_deps[] = 'essential-blocks-fontpicker-material-theme';
-            $editor_styles_deps[] = 'essential-blocks-fontpicker-default-theme';
-            $editor_styles_deps[] = 'essential-blocks-fontawesome';
+            $editor_styles_deps[  ] = 'essential-blocks-fontpicker-material-theme';
+            $editor_styles_deps[  ] = 'essential-blocks-fontpicker-default-theme';
+            $editor_styles_deps[  ] = 'essential-blocks-fontawesome';
         }
 
         if ( $pagenow !== 'widgets.php' ) {
             //Global Styles
-            wpdev_essential_blocks()->assets->register( 'global-styles', '../lib/global-styles/dist/style.css', ['dashicons'] );
-            $editor_styles_deps[] = 'essential-blocks-global-styles';
+            wpdev_essential_blocks()->assets->register( 'global-styles', '../lib/global-styles/dist/style.css', [ 'dashicons' ] );
+            $editor_styles_deps[  ] = 'essential-blocks-global-styles';
 
             //templately-installer
             wpdev_essential_blocks()->assets->register( 'templately-installer', '../lib/templately-installer/dist/style.css' );
-            $editor_styles_deps[] = 'essential-blocks-templately-installer';
+            $editor_styles_deps[  ] = 'essential-blocks-templately-installer';
         }
 
         //Iconpicker css
         wpdev_essential_blocks()->assets->register( 'iconpicker-css', '../dist/style-modules.css' );
-        $editor_styles_deps[] = 'essential-blocks-iconpicker-css';
+        $editor_styles_deps[  ] = 'essential-blocks-iconpicker-css';
 
         // register styles
         wpdev_essential_blocks()->assets->register( 'editor-css', '../dist/modules.css', $editor_styles_deps );
@@ -133,12 +141,22 @@ class Scripts {
      *
      * @return void
      */
-    public function frontend_backend_assets() {
+    public function frontend_backend_assets()
+    {
         wpdev_essential_blocks()->assets->register( 'eb-animation', 'js/eb-animation-load.js' );
         wpdev_essential_blocks()->assets->register( 'animation', 'css/animate.min.css' );
 
         wpdev_essential_blocks()->assets->register( 'vendor-bundle', '../vendor-bundle/index.js' );
-        wpdev_essential_blocks()->assets->register( 'frontend-style', '../dist/style.css' );
+
+        //Register block combined styles
+        $css_file                        = 'eb-style' . DIRECTORY_SEPARATOR . 'frontend' . DIRECTORY_SEPARATOR . 'style.css';
+        $css_with_custom_breakpoint_path = wp_upload_dir()[ 'basedir' ] . DIRECTORY_SEPARATOR . $css_file;
+        $frontend_css_file               = '../dist/style.css';
+        if ( file_exists( $css_with_custom_breakpoint_path ) ) {
+            $frontend_css_file = wp_upload_dir()[ 'baseurl' ] . '/eb-style/frontend/style.css';
+        }
+        wpdev_essential_blocks()->assets->register( 'frontend-style', $frontend_css_file );
+
         if ( $this->isEnableFontAwesome == 'true' ) {
             wpdev_essential_blocks()->assets->register( 'fontawesome', 'fontawesome/css/all.min.css' );
             wpdev_essential_blocks()->assets->register( 'fontpicker-default-theme', 'css/fonticonpicker.base-theme.react.css' );
@@ -158,37 +176,37 @@ class Scripts {
         wpdev_essential_blocks()->assets->register( 'hls', 'js/react-player/hls.min.js' );
         // dashicon
         wp_enqueue_style( 'dashicons' );
-        wpdev_essential_blocks()->assets->register( 'controls-frontend', '../dist/frontend.js');
+        wpdev_essential_blocks()->assets->register( 'controls-frontend', '../dist/frontend.js' );
 
         //CSS Var for Global Colors
         $global_color_settings = wp_unslash( get_option( 'eb_global_styles' ) );
 
         //global solid colors
-        $global_colors = [];
-        if ( isset( $global_color_settings['global_colors'] ) && Helper::isJson( $global_color_settings['global_colors'] ) ) {
-            $global_colors = json_decode( $global_color_settings['global_colors'] );
+        $global_colors = [  ];
+        if ( isset( $global_color_settings[ 'global_colors' ] ) && Helper::isJson( $global_color_settings[ 'global_colors' ] ) ) {
+            $global_colors = json_decode( $global_color_settings[ 'global_colors' ] );
         } else {
             $global_colors = Helper::global_colors();
         }
 
         //custom solid colors
-        $custom_colors = [];
-        if ( isset( $global_color_settings['custom_colors'] ) && Helper::isJson( $global_color_settings['custom_colors'] ) ) {
-            $custom_colors = json_decode( $global_color_settings['custom_colors'] );
+        $custom_colors = [  ];
+        if ( isset( $global_color_settings[ 'custom_colors' ] ) && Helper::isJson( $global_color_settings[ 'custom_colors' ] ) ) {
+            $custom_colors = json_decode( $global_color_settings[ 'custom_colors' ] );
         }
 
         //global gradient colors
-        $gradient_colors = [];
-        if ( isset( $global_color_settings['gradient_colors'] ) && Helper::isJson( $global_color_settings['gradient_colors'] ) ) {
-            $gradient_colors = json_decode( $global_color_settings['gradient_colors'] );
+        $gradient_colors = [  ];
+        if ( isset( $global_color_settings[ 'gradient_colors' ] ) && Helper::isJson( $global_color_settings[ 'gradient_colors' ] ) ) {
+            $gradient_colors = json_decode( $global_color_settings[ 'gradient_colors' ] );
         } else {
             $gradient_colors = Helper::gradient_colors();
         }
 
         //custom gradient colors
-        $custom_gradient_colors = [];
-        if ( isset( $global_color_settings['custom_gradient_colors'] ) && Helper::isJson( $global_color_settings['custom_gradient_colors'] ) ) {
-            $custom_gradient_colors = json_decode( $global_color_settings['custom_gradient_colors'] );
+        $custom_gradient_colors = [  ];
+        if ( isset( $global_color_settings[ 'custom_gradient_colors' ] ) && Helper::isJson( $global_color_settings[ 'custom_gradient_colors' ] ) ) {
+            $custom_gradient_colors = json_decode( $global_color_settings[ 'custom_gradient_colors' ] );
         }
 
         $colors_css = "";
@@ -205,15 +223,22 @@ class Scripts {
         //Custom Gradient Colors to CSS String
         $colors_css .= $this->array_to_css( $custom_gradient_colors );
 
+        //Responsive Breakpoints CSS
+        $responsive_breakpoints = Helper::get_responsive_breakpoints();
+        $responsive_css         = '';
+        $responsive_css .= $this->array_responsive_css( $responsive_breakpoints );
+
         $custom_css = "
             :root {
                 {$colors_css}
+                {$responsive_css}
             }
         ";
         wp_add_inline_style( 'essential-blocks-frontend-style', $custom_css );
     }
 
-    private function array_to_css( $css_array ) {
+    private function array_to_css( $css_array )
+    {
         $css = '';
         if ( is_array( $css_array ) && count( $css_array ) > 0 ) {
             foreach ( $css_array as $color ) {
@@ -228,19 +253,31 @@ class Scripts {
         return $css;
     }
 
+    private function array_responsive_css( $responsive_array )
+    {
+        $css = '';
+        if ( is_array( $responsive_array ) && count( $responsive_array ) > 0 ) {
+            foreach ( $responsive_array as $key => $value ) {
+                $css .= "--eb-{$key}-breakpoint: {$value}px;\n";
+            }
+        }
+        return $css;
+    }
+
     /**
      * enqueue localize scripts
      *
      * @return void
      */
-    public function localize_enqueue_scripts() {
+    public function localize_enqueue_scripts()
+    {
         wpdev_essential_blocks()->assets->enqueue( 'blocks-localize', 'js/eb-blocks-localize.js' );
 
         global $pagenow;
         $editor_type = '';
         if ( $pagenow == 'post-new.php' || $pagenow == 'post.php' ) {
             $editor_type = 'edit-post';
-        } elseif ( $pagenow == 'site-editor.php' || ( $pagenow == 'themes.php' && isset( $_GET['page'] ) && $_GET['page'] == 'gutenberg-edit-site' ) ) {
+        } elseif ( $pagenow == 'site-editor.php' || ( $pagenow == 'themes.php' && isset( $_GET[ 'page' ] ) && $_GET[ 'page' ] == 'gutenberg-edit-site' ) ) {
             $editor_type = 'edit-site';
         } elseif ( $pagenow == 'widgets.php' ) {
             $editor_type = 'edit-widgets';
@@ -250,12 +287,12 @@ class Scripts {
             'eb_conditional_localize',
             [
                 'editor_type' => $editor_type
-            ]
+             ]
         );
 
-        $eb_settings = get_option( 'eb_settings', [] );
-        $googleFont  = ! empty( $eb_settings['googleFont'] ) ? $eb_settings['googleFont'] : 'true';
-        $fontAwesome = ! empty( $eb_settings['fontAwesome'] ) ? $eb_settings['fontAwesome'] : 'true';
+        $eb_settings = get_option( 'eb_settings', [  ] );
+        $googleFont  = ! empty( $eb_settings[ 'googleFont' ] ) ? $eb_settings[ 'googleFont' ] : 'true';
+        $fontAwesome = ! empty( $eb_settings[ 'fontAwesome' ] ) ? $eb_settings[ 'fontAwesome' ] : 'true';
 
         $plugin = $this->plugin;
 
@@ -271,8 +308,9 @@ class Scripts {
             'post_grid_pagination_nonce' => wp_create_nonce( 'eb-pagination-nonce' ),
             'placeholder_image'          => ESSENTIAL_BLOCKS_PLACEHOLDER_IMAGE,
             'is_pro_active'              => ESSENTIAL_BLOCKS_IS_PRO_ACTIVE ? "true" : "false",
-            'upgrade_pro_url'            => ESSENTIAL_BLOCKS_UPGRADE_PRO_URL
-        ];
+            'upgrade_pro_url'            => ESSENTIAL_BLOCKS_UPGRADE_PRO_URL,
+            'responsiveBreakpoints'      => Helper::get_responsive_breakpoints()
+         ];
         if ( is_admin() ) {
             $admin_localize_array = [
                 'admin_nonce'         => wp_create_nonce( 'admin-nonce' ),
@@ -286,7 +324,7 @@ class Scripts {
                 'globalColors'        => Helper::global_colors(),
                 'gradientColors'      => Helper::gradient_colors(),
                 'unfilter_capability' => current_user_can( 'unfiltered_html' ) ? 'true' : 'false'
-            ];
+             ];
 
             $localize_array = array_merge( $localize_array, $admin_localize_array );
         }

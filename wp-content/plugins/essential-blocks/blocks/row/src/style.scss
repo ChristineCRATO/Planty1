@@ -32,7 +32,7 @@
 	box-sizing: border-box;
 }
 
-@media all and (max-width: 1024px) {
+@media (max-width: 1024px) {
 	.eb-row-wrapper:not(.for-editor-page)>.eb-row-inner {
 		flex-wrap: wrap;
 	}

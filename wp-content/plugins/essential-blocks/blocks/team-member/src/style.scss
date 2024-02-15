@@ -15,7 +15,7 @@
 		&.content-overlay {
 
 			&:hover {
-				.contents {
+				.eb-team-member-contents {
 					opacity: 1;
 					visibility: visible;
 				}
@@ -25,7 +25,7 @@
 				position: relative;
 			}
 
-			.contents {
+			.eb-team-member-contents {
 				transition: 0.5s;
 				opacity: 0;
 				visibility: hidden;
@@ -45,7 +45,7 @@
 	&.new-preset3 {
 		line-height: 0;
 
-		.contents {
+		.eb-team-member-contents {
 			position: absolute;
 			left: 0;
 			top: auto !important;
@@ -78,13 +78,13 @@
 	&.new-preset1 {
 
 		&:hover {
-			.contents {
+			.eb-team-member-contents {
 				bottom: 0;
 				top: auto !important;
 			}
 		}
 
-		.contents {
+		.eb-team-member-contents {
 			bottom: -100%;
 			transition: 0.5s;
 			height: auto !important;
@@ -103,7 +103,7 @@
 
 	&.new-preset2 {
 		&:hover {
-			.contents {
+			.eb-team-member-contents {
 				transform: translate(0px, -10px) rotate(0deg);
 			}
 		}
@@ -112,7 +112,7 @@
 			padding-bottom: 60px;
 		}
 
-		.contents {
+		.eb-team-member-contents {
 			bottom: -15px;
 			height: auto !important;
 			transform: translate(490px, 145px) rotate(45deg);
@@ -154,7 +154,7 @@
 			position: relative;
 		}
 
-		.contents {
+		.eb-team-member-contents {
 			top: 0 !important;
 			height: 100% !important;
 

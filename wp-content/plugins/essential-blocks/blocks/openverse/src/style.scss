@@ -293,7 +293,7 @@
 	transition: box-shadow 0.1s linear;
 }
 
-@media all and (max-width: 767px) {
+@media (max-width: 767px) {
 	.eb-openverse-grid {
 		--size: calc(70vw / 4) !important;
 	}

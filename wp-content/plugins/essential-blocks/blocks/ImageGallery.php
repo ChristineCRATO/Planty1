@@ -43,10 +43,14 @@ class ImageGallery extends Block {
             }
 
             $enableFilter = false;
+            $enableIsotope = false;
             if ( isset( $attributes['enableFilter'] ) && $attributes['enableFilter'] == true ) {
                 $enableFilter = true;
             }
-            if ( $enableFilter ) {
+            if ( isset( $attributes['enableIsotope'] ) && $attributes['enableIsotope'] == true ) {
+                $enableIsotope = true;
+            }
+            if ( $enableFilter || $enableIsotope ) {
                 $this->assets_manager->enqueue(
                     'isotope',
                     'js/isotope.pkgd.min.js'

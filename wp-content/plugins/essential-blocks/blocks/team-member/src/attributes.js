@@ -106,7 +106,7 @@ const attributes = {
     //
     imageUrl: {
         source: "attribute",
-        selector: ".avatar",
+        selector: ".eb-team-member-avatar",
         attribute: "src",
         default: EssentialBlocksLocalize?.eb_plugins_url + "assets/images/user.jpg",
     },

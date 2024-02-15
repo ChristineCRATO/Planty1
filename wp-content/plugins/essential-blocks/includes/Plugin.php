@@ -29,7 +29,7 @@ use EssentialBlocks\Integrations\PluginInstaller;
 final class Plugin
 {
     use HasSingletone;
-    public $version = '4.4.12';
+    public $version = '4.5.1';
 
     public $admin;
     /**
@@ -201,6 +201,8 @@ final class Plugin
         $this->define( 'ESSENTIAL_BLOCKS_UPGRADE_PRO_URL', 'https://essential-blocks.com/upgrade' );
         $this->define( 'ESSENTIAL_BLOCKS_PLACEHOLDER_IMAGE', ESSENTIAL_BLOCKS_URL . 'assets/images/placeholder.png' );
         $this->define( 'EB_PATTERN', true );
+        $this->define( 'EB_PROMOTION_FLAG', 1 );
+        $this->define( 'EB_ADMIN_MENU_FLAG', 1 );
 
         //Table Name constants
         global $wpdb;

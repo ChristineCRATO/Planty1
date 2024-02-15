@@ -1,5 +1,6 @@
 import { PluginSidebar } from "@wordpress/edit-post";
 import { __ } from "@wordpress/i18n";
+import { applyFilters } from "@wordpress/hooks";
 import { useState, useEffect, useRef } from "@wordpress/element";
 import { PanelBody, Button, Popover, Dashicon, TabPanel, PanelRow } from "@wordpress/components";
 
@@ -57,6 +58,7 @@ import WooProductGrid from "./block-defaults/woo-product-grid";
 import Wpforms from "./block-defaults/wpforms";
 import Wrapper from "./block-defaults/wrapper";
 import GoogleMap from "./block-defaults/google-map";
+import Form from "./block-defaults/form";
 
 /**
  * Global Controls Component
@@ -74,7 +76,7 @@ function EBGlobalControls(props) {
 
     const localizeColors = EssentialBlocksLocalize.globalColors || []
 
-    const components = {
+    const components = applyFilters('eb_block_defaults', {
         advanced_heading: {
             component: AdvancedHeading,
             preview: true,
@@ -333,7 +335,11 @@ function EBGlobalControls(props) {
             component: GoogleMap,
             preview: false,
         },
-    };
+        form: {
+            component: Form,
+            preview: false,
+        },
+    });
 
     /**
      * State
@@ -786,7 +792,7 @@ function EBGlobalControls(props) {
                                     "true" && (
                                         <BlockPreview
                                             blocks={createBlock(
-                                                `essential-blocks/${clickedBlock.replace(
+                                                `essential-blocks/${registeredBlocks[clickedBlock]?.is_pro ? 'pro-' : ''}${clickedBlock.replace(
                                                     /_/g,
                                                     "-"
                                                 )}`,
@@ -796,7 +802,7 @@ function EBGlobalControls(props) {
                                                     ),
                                                 }
                                             )}
-                                            viewportWidth={500}
+                                            viewportWidth={1100}
                                         />
                                     )}
 

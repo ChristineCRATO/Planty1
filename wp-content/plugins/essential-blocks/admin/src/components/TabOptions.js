@@ -12,12 +12,14 @@ import GoogleMaps from "./modal/googleMaps";
 import Instagram from "./modal/instagram";
 import OpenseaNft from "./modal/openseaNft";
 import Openverse from "./modal/openverse";
+import ResponsiveBreakPoints from "./modal/responsiveBreakPoints";
 
 /**
  * TabOptions Components
  * @returns
  */
 export default function TabOptions() {
+    const [responsiveModal, setResponsiveModal] = useState(false);
     const [optionModal, setOptionModal] = useState(false);
     const [clickedItem, setClickedItem] = useState("");
     const [settingsData, setSettingsData] = useState({});
@@ -35,6 +37,7 @@ export default function TabOptions() {
         fetchEBSettingsData("eb_settings").then((data) => {
             setSettingsData(data ?? {});
         });
+
     }, []);
 
     const optimizations = {
@@ -108,6 +111,10 @@ export default function TabOptions() {
     const handleEditBtnClick = (item) => {
         setOptionModal(true);
         setClickedItem(item);
+    };
+
+    const handelResponsiveBreakPoints = () => {
+        setResponsiveModal(true);
     };
 
     /**
@@ -343,6 +350,34 @@ export default function TabOptions() {
                 </div>
             </div>
 
+            <div className="eb-admin-grid">
+                <div className="eb-col-12">
+                    <h2 className="eb-admin-block-title">
+                        {__("Responsive Breakpoints", "essential-blocks")}
+                    </h2>
+                    <div className="eb-admin-block regenerate-asset-block eb-block-xs">
+                        <div className="content">
+                            <h5 className="eb-admin-block__title">
+                                {__("Responsive Breakpoints", "essential-blocks")}
+                            </h5>
+                            <p>
+                                {__(
+                                    "Adjust the “Responsive Breakpoint” settings to define the screen widths at which your site will adapt for optimal viewing on tablets and mobile devices.",
+                                    "essential-blocks"
+                                )}
+                            </p>
+                        </div>
+
+                        <button
+                            className="eb-btn eb-btn-border"
+                            onClick={() => handelResponsiveBreakPoints()}
+                        >
+                            {__("Configure Breakpoints", "essential-blocks")}
+                        </button>
+                    </div>
+                </div>
+            </div>
+
             {optionModal && (
                 <div className="option-modal">
                     <div className="option-modal__inner">
@@ -355,6 +390,25 @@ export default function TabOptions() {
                         <ClickedComponent
                             setTrigger={setOptionModal}
                             settingsKey={clickedItem}
+                            settingsData={settingsData}
+                            setSettingsData={setSettingsData}
+                        />
+                    </div>
+                </div>
+            )}
+
+            {responsiveModal && (
+                <div className="option-modal">
+                    <div className="option-modal__inner">
+                        <button
+                            className="close-btn"
+                            onClick={() => setResponsiveModal(false)}
+                        >
+                            <span className="dashicons dashicons-no"></span>
+                        </button>
+
+                        <ResponsiveBreakPoints
+                            setTrigger={setResponsiveModal}
                             settingsData={settingsData}
                             setSettingsData={setSettingsData}
                         />

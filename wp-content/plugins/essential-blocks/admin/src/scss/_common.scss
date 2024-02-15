@@ -293,6 +293,12 @@ body {
 		margin: 0 auto !important;
 	}
 
+	&-reset {
+		margin: 0 15px;
+		color: #e41c1c;
+		background-color: #fdf2f2;
+	}
+
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
