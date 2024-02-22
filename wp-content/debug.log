@@ -1,0 +1,139 @@
+[20-Feb-2024 18:17:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 36
+[20-Feb-2024 18:17:46 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[20-Feb-2024 18:19:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 36
+[20-Feb-2024 18:19:46 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[20-Feb-2024 18:21:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 36
+[20-Feb-2024 18:21:47 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Feb-2024 09:09:39 UTC] PHP Parse error:  syntax error, unexpected '}' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 36
+[22-Feb-2024 09:09:39 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Feb-2024 09:09:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 36
+[22-Feb-2024 09:09:43 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Feb-2024 09:09:45 UTC] PHP Parse error:  syntax error, unexpected '}' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 36
+[22-Feb-2024 09:09:45 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Feb-2024 09:09:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 36
+[22-Feb-2024 09:09:57 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Feb-2024 09:10:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 36
+[22-Feb-2024 09:10:10 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Feb-2024 09:10:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 35
+[22-Feb-2024 09:10:52 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Feb-2024 09:11:30 UTC] PHP Deprecated:  La fonction the_block_template_skip_link est obsolète depuis la version 6.4.0 ! Utilisez wp_enqueue_block_template_skip_link() à la place. in /Applications/MAMP/htdocs/planty1/wp-includes/functions.php on line 6031
+[22-Feb-2024 09:11:31 UTC] PHP Deprecated:  La fonction the_block_template_skip_link est obsolète depuis la version 6.4.0 ! Utilisez wp_enqueue_block_template_skip_link() à la place. in /Applications/MAMP/htdocs/planty1/wp-includes/functions.php on line 6031
+[22-Feb-2024 09:11:31 UTC] PHP Deprecated:  La fonction the_block_template_skip_link est obsolète depuis la version 6.4.0 ! Utilisez wp_enqueue_block_template_skip_link() à la place. in /Applications/MAMP/htdocs/planty1/wp-includes/functions.php on line 6031
+[22-Feb-2024 09:11:34 UTC] PHP Deprecated:  La fonction the_block_template_skip_link est obsolète depuis la version 6.4.0 ! Utilisez wp_enqueue_block_template_skip_link() à la place. in /Applications/MAMP/htdocs/planty1/wp-includes/functions.php on line 6031
+[22-Feb-2024 09:12:24 UTC] PHP Deprecated:  La fonction the_block_template_skip_link est obsolète depuis la version 6.4.0 ! Utilisez wp_enqueue_block_template_skip_link() à la place. in /Applications/MAMP/htdocs/planty1/wp-includes/functions.php on line 6031
+[22-Feb-2024 09:20:57 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:20:57 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:21:13 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:13 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:15 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:15 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:16 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:16 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:18 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:18 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:21 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:21 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:25 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:25 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:29 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:29 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:21:42 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:21:42 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:21:51 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:21:51 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:26:32 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:26:32 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:27:54 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:27:54 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:28:09 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:28:09 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:28:54 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:28:54 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:31:23 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:31:23 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:32:07 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:32:07 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:36:10 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:36:10 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:38:39 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:38:39 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:39:24 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:39:24 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:42:03 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:42:03 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:42:47 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:42:47 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:43:11 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:43:11 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:44:15 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:44:15 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:45:29 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:45:29 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:48:19 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:48:19 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:51:23 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:51:23 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:51:43 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:51:43 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:52:37 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:52:37 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:53:05 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:53:05 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:53:12 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:53:12 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 09:56:37 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:56:37 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:58:30 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:58:30 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:59:51 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 09:59:51 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:00:10 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:00:10 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:02:57 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:02:57 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:05:37 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:05:37 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:05:47 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:05:47 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:09:11 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:09:11 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:10:58 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:10:58 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:12:06 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:12:06 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:15:00 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:15:00 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:27:36 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:27:36 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:27:44 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:27:44 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:27:49 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:27:49 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:31:13 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:31:13 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:31:18 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:31:18 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:33:43 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:33:43 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:33:52 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 10:33:52 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 10:35:16 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 10:35:16 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 10:35:41 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 10:35:41 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 10:38:35 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 10:38:35 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 10:38:46 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:38:47 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:38:52 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:38:52 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:39:28 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:39:28 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:44:07 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:44:07 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:44:13 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:44:13 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:50:15 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:50:15 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:50:26 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 10:50:26 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43

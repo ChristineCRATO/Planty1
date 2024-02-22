@@ -1,0 +1,226 @@
+# Translation of Plugins - Essential Blocks – Page Builder Gutenberg Blocks, Patterns &amp; Templates - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Essential Blocks – Page Builder Gutenberg Blocks, Patterns &amp; Templates - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-07 23:27:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Essential Blocks – Page Builder Gutenberg Blocks, Patterns &amp; Templates - Stable (latest release)\n"
+
+#: blocks/advanced-heading/block.json
+msgctxt "block title"
+msgid "Advanced Heading"
+msgstr "Titre avancé"
+
+#: includes/blocks-default.php:76 dist/index.js:1
+msgid "Advanced Heading"
+msgstr "Titre avancé"
+
+#: blocks/typing-text/block.json
+msgctxt "block title"
+msgid "Typing Text"
+msgstr "Saisie de texte"
+
+#: blocks/toggle-content/block.json
+msgctxt "block title"
+msgid "Toggle Content"
+msgstr "Contenu de la bascule"
+
+#: blocks/testimonial/block.json
+msgctxt "block title"
+msgid "Testimonial"
+msgstr "Témoignage"
+
+#: blocks/team-member/block.json
+msgctxt "block title"
+msgid "Team Members"
+msgstr "Membres de l’équipe "
+
+#: blocks/slider/block.json
+msgctxt "block title"
+msgid "Slider"
+msgstr "Diaporama"
+
+#: blocks/progress-bar/block.json
+msgctxt "block title"
+msgid "Progress Bar"
+msgstr "Barre de progression"
+
+#: blocks/pricing-table/block.json
+msgctxt "block title"
+msgid "Pricing Table"
+msgstr "Tableau des prix"
+
+#: blocks/parallax-slider/block.json
+msgctxt "block title"
+msgid "Parallax Slider"
+msgstr "Diaporama parallax"
+
+#: blocks/number-counter/block.json
+msgctxt "block title"
+msgid "Number Counter"
+msgstr "Compteur numérique"
+
+#: blocks/notice/block.json
+msgctxt "block title"
+msgid "Notice"
+msgstr "Notification"
+
+#: blocks/interactive-promo/block.json
+msgctxt "block title"
+msgid "Interactive Promo"
+msgstr "Promo interactive"
+
+#: blocks/instagram-feed/block.json
+msgctxt "block title"
+msgid "Instagram Feed"
+msgstr "Flux Instagram"
+
+#: blocks/infobox/block.json
+msgctxt "block title"
+msgid "Infobox"
+msgstr "Boîte d’info"
+
+#: blocks/image-gallery/block.json
+msgctxt "block title"
+msgid "Image Gallery"
+msgstr "Galerie d’images"
+
+#: blocks/image-comparison/block.json
+msgctxt "block title"
+msgid "Image Comparison"
+msgstr "Comparaison d’image"
+
+#: blocks/flipbox/block.json
+msgctxt "block title"
+msgid "Flipbox"
+msgstr "Flipbox"
+
+#: blocks/dual-button/block.json
+msgctxt "block title"
+msgid "Dual Button"
+msgstr "Bouton double"
+
+#: blocks/countdown/block.json
+msgctxt "block title"
+msgid "Countdown"
+msgstr "Compte à rebours"
+
+#: blocks/call-to-action/block.json
+msgctxt "block title"
+msgid "Call To Action"
+msgstr "Appel à l’action"
+
+#: includes/menu-page-display.php:92
+msgid "<a href=\"%s\" target=\"_blank\">Explore Demos</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">Explorer les démos</a>"
+
+#: includes/blocks-default.php:166
+msgid "Number Counter"
+msgstr "Compteur numérique"
+
+#: includes/blocks-default.php:161
+msgid "Wrapper"
+msgstr "Conteneur"
+
+#: includes/blocks-default.php:156 dist/index.js:1
+msgid "Typing Text"
+msgstr "Saisie de texte"
+
+#: includes/blocks-default.php:151
+msgid "Toggle Content"
+msgstr "Contenu de la bascule"
+
+#: includes/blocks-default.php:146
+msgid "Testimonial"
+msgstr "Témoignage"
+
+#: includes/blocks-default.php:141
+msgid "Team Member"
+msgstr "Membre de l’équipe "
+
+#: includes/blocks-default.php:126 dist/index.js:1
+msgid "Slider"
+msgstr "Diaporama"
+
+#: includes/blocks-default.php:121 dist/index.js:1
+msgid "Progress Bar"
+msgstr "Barre de progression"
+
+#: includes/blocks-default.php:116
+msgid "Pricing Table"
+msgstr "Tableau de prix"
+
+#: includes/blocks-default.php:111
+msgid "Parallax Slider"
+msgstr "Diaporama parallax"
+
+#: includes/blocks-default.php:106
+msgid "Notice"
+msgstr "Notification"
+
+#: includes/blocks-default.php:101
+msgid "Interactive Promo"
+msgstr "Promo interactive"
+
+#: includes/blocks-default.php:96 dist/index.js:1
+msgid "Instagram Feed"
+msgstr "Flux Instagram"
+
+#: includes/blocks-default.php:91
+msgid "Infobox"
+msgstr "Boîte d’info"
+
+#: includes/blocks-default.php:86
+msgid "Image Gallery"
+msgstr "Galerie d’images"
+
+#: includes/blocks-default.php:81
+msgid "Image Comparison"
+msgstr "Comparaison d’image"
+
+#: includes/blocks-default.php:71
+msgid "Flipbox"
+msgstr "Flipbox"
+
+#: includes/blocks-default.php:66
+msgid "Dual Button"
+msgstr "Bouton double"
+
+#: includes/blocks-default.php:61
+msgid "Countdown"
+msgstr "Compte à rebours"
+
+#: includes/blocks-default.php:56
+msgid "Call To Action"
+msgstr "Appel à l’action"
+
+#: includes/blocks-default.php:51 dist/index.js:1
+msgid "Button"
+msgstr "Bouton"
+
+#: includes/blocks-default.php:46 dist/index.js:1
+msgid "Accordion"
+msgstr "Accordéon"
+
+#. Author of the plugin
+msgid "WPDeveloper"
+msgstr "WPDeveloper"
+
+#. Description of the plugin
+msgid "The Ultimate Blocks Library for WordPress Gutenberg editor."
+msgstr "La bibliothèque de blocs ultime pour l’éditeur Gutenberg de WordPress."
+
+#. Plugin URI of the plugin
+msgid "https://essential-blocks.com"
+msgstr "https://essential-blocks.com"
+
+#. Plugin Name of the plugin
+#: includes/category.php:7 includes/class-essential-admin.php:37
+#: includes/class-essential-admin.php:38
+msgid "Essential Blocks"
+msgstr "Essential Blocks"

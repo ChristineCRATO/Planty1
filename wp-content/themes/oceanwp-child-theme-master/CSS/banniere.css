@@ -1,0 +1,11 @@
+/* CSS Bannière de canette Planty */
+.banniere {
+	background-image: url('http://localhost:8888/planty/wp-content/uploads/2024/02/footer.png');
+	background-repeat: repeat; 
+	
+/* Répéter l'image horizontalement et verticalement */
+	background-size: cover; 
+
+/* Redimensionner l'image pour couvrir toute la bannière */
+	height: 200px; /* Hauteur de la bannière */
+}

@@ -1,3 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* MENU */
+/* Retirer les efffets sur mes liens de menu */
+
+.nav-menu a:active {
+    outline: none !important;
+}
+
+.text-wrap {
+    color:none;
+}
+
+#menu-item-27 {
+    color:#000
+}
+
+#menu-item-26 {
+    background: #DC9F96;
+    color: white;
+    order: 3;
+    height: 80px;
+    padding: 0px 60px 30px 60px;
+}
+
+#menu-item-26:hover {
+    background: #C02E44;
+}
+
+.curved {
+    position: relative;
+    background: #fff;
+    width: auto;
+    height:300px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    overflow:hidden;
+}
+
+/* Les Goûts titre et paragraphe */
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    color: #d2776a;
+    margin-top:60px;
+}
+
+.content p {
+    font-size: 20px;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom:20px;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -5,7 +71,7 @@ footer {
     padding: 10px; /* Espace intérieur du pied de page */
  }
  
- footer p {
+ footer a {
     margin: 20px;
     top: 60px;
     left: 66px;
@@ -13,27 +79,182 @@ footer {
  
  .footer-text {
     font-size: 16px;
- }
- 
- .footer-img {
-    margin-bottom: 30px;
- 
+    text-decoration: none !important;
  }
 
- /* Supprime les marges supérieures et inférieures des blocs */
-.wp-block {
-    margin-top: 0;
-    margin-bottom: 0;
+ .footer-text:hover {
+    color: inherit;
+ }
+
+.footer-link::after {
+    content: " Mentions légales";
+    display: inline;
+    outline: none;
 }
 
-/* Supprime les marges internes des conteneurs de colonnes */
-.wp-block-column {
-    padding-left: 0;
-    padding-right: 0;
+
+
+ /***** Media queries *****/
+
+/* iPads */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+.legend {
+    font-size: 44px;
+}
+h2 {
+    font-size: 28px;
+}
+h3, .name {
+    font-size: 28px;
+}
+p, .avis_text {
+    font-size: 16px;
+}
+.name {
+    font-size: 22px;
 }
 
-/* Supprime les marges internes des groupes de blocs */
-.wp-block-group {
-    padding-left: 0;
-    padding-right: 0;
+.bloc_equip {
+    display: flex;
+}
+#gouts {
+    width: 90%;
+    margin: 0 auto;
+}
+#command_form {
+    width: 100%;
+}
+.donnees {
+    width: 90%;
+    margin: 0 auto;
+}
+.wpcf7-text, .wpcf7-textarea {
+    width: 100%;
+}
+}
+
+/* Smartphones */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+.main_header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}    
+a {
+    font-size: 0.8rem;
+}
+.identity {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    display: none;
+}
+.logo_device {
+    display: block;
+    width: 25%;
+    margin: 10px 20px 10px 10px;
+}
+.main_nav {
+    display: flex;
+}
+.main_nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.main_nav li {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+#menu-item-26 {
+    background: #DC9F96;
+    color: white;
+    order: 3;
+    height: 80px;
+    padding: 10px 41px 11px 41px;
+}
+.groupe1, .groupe2 {
+    display: flex;
+    flex-direction: column;
+}
+.fruit {
+    width: 100%;
+}
+.legend {
+    font-size: 40px;
+}
+h2 {
+    font-size: 24px;
+}
+h3, .name {
+    font-size: 26px;
+}
+p, .avis_text {
+    font-size: 14px;
+}
+.blocs_avis {
+    display: flex;
+    flex-direction: column;
+}
+.temoin {
+    margin-bottom: 40px;
+}
+.bloc_rencontre {
+    padding-top: 50px;
+    background-image: none;
+}
+.rencontre_title, .rencontre_text {
+    width: 100%;
+    margin: 0 auto;
+}
+.bloc_equip, .formulaire_contact {
+    background-image: none;
+}
+.bloc_equip {
+    display: flex;
+    flex-direction: column;
+}
+.formulaire_contact.wp-container-core-group-layout-5.wp-container-core-group-layout-5 {
+    width: 90%;
+}
+.wpcf7-text, .wpcf7-textarea {
+    width: 100%;
+}
+#command_form {
+    width: 100%;
+}
+#gouts {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+.bloc_gouts {
+    padding-bottom: 10%;
+}
+.text_gouts {
+    font-size: 30px;
+}
+.donnees {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+.infos, .livraison {
+    width: 100%;
+    padding: 0;
+}
+.infos {
+    border-right: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 45px;
+}
+.formulaire_contact form {
+    width: 100%;
+}
+.bloc_equip .wp-block-column.is-vertically-aligned-top.is-layout-flow.wp-block-column-is-layout-flow {
+    margin-bottom: 40px;
+}
 }

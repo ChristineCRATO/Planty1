@@ -1,0 +1,258 @@
+# Translation of Plugins - Post Grid Elementor Addon - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Post Grid Elementor Addon - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-28 06:55:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.6\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Post Grid Elementor Addon - Stable (latest release)\n"
+
+#: widgets/post-grid.php:1222
+msgid ", "
+msgstr ", "
+
+#: widgets/post-grid.php:811
+msgid "Content"
+msgstr "Contenu"
+
+#: widgets/post-grid.php:754
+msgid "Meta"
+msgstr "Méta"
+
+#: widgets/post-grid.php:691 widgets/post-grid.php:716
+#: widgets/post-grid.php:776 widgets/post-grid.php:833
+#: widgets/post-grid.php:902 widgets/post-grid.php:951
+msgid "Color"
+msgstr "Couleur"
+
+#: widgets/post-grid.php:561 widgets/post-grid.php:707
+#: widgets/post-grid.php:942
+msgid "Hover"
+msgstr "Au survol"
+
+#: widgets/post-grid.php:525 widgets/post-grid.php:570
+#: widgets/post-grid.php:917 widgets/post-grid.php:966
+msgid "Background Color"
+msgstr "Couleur d’arrière-plan"
+
+#: widgets/post-grid.php:516 widgets/post-grid.php:682
+#: widgets/post-grid.php:893
+msgid "Normal"
+msgstr "Normal"
+
+#: widgets/post-grid.php:467
+msgid "Border Widget"
+msgstr "Bordure du widget"
+
+#: widgets/post-grid.php:458
+msgid "Box"
+msgstr "Boîte"
+
+#: widgets/post-grid.php:428
+msgid "Rows margin"
+msgstr "Marges externes des rangées"
+
+#: widgets/post-grid.php:406
+msgid "Columns margin"
+msgstr "Marges externes des colonnes"
+
+#: widgets/post-grid.php:379
+msgid "DESC"
+msgstr "Décroissant"
+
+#: widgets/post-grid.php:378
+msgid "ASC"
+msgstr "Croissant"
+
+#: widgets/post-grid.php:374
+msgid "Order"
+msgstr "Ordre"
+
+#: widgets/post-grid.php:366
+msgid "Random"
+msgstr "Aléatoire"
+
+#: widgets/post-grid.php:360
+msgid "Order By"
+msgstr "Trier par"
+
+#: widgets/post-grid.php:352
+msgid "Advanced"
+msgstr "Avancé"
+
+#: widgets/post-grid.php:331
+msgid "Query"
+msgstr "Requête"
+
+#: widgets/post-grid.php:307
+msgid "Right"
+msgstr "À droite"
+
+#: widgets/post-grid.php:299
+msgid "Left"
+msgstr "À gauche"
+
+#: widgets/post-grid.php:295
+msgid "Alignment"
+msgstr "Alignement"
+
+#: widgets/post-grid.php:285
+msgid "Read More »"
+msgstr "Lire la suite »"
+
+#: widgets/post-grid.php:246
+msgid "Excerpt Length"
+msgstr "Longueur de l’extrait"
+
+#: widgets/post-grid.php:234
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: widgets/post-grid.php:219
+msgid "Separator Between"
+msgstr "Séparateur entre"
+
+#: widgets/post-grid.php:210
+msgid "Comments"
+msgstr "Commentaires"
+
+#: widgets/post-grid.php:209 widgets/post-grid.php:340
+msgid "Categories"
+msgstr "Catégories"
+
+#: widgets/post-grid.php:208 widgets/post-grid.php:364
+msgid "Date"
+msgstr "Date"
+
+#: widgets/post-grid.php:207
+msgid "Author"
+msgstr "Auteur"
+
+#: widgets/post-grid.php:201
+msgid "Meta Data"
+msgstr "Métadonnées"
+
+#: widgets/post-grid.php:178
+msgid "Title HTML Tag"
+msgstr "Balise HTML du titre"
+
+#: widgets/post-grid.php:166 widgets/post-grid.php:365
+#: widgets/post-grid.php:659
+msgid "Title"
+msgstr "Titre"
+
+#: widgets/post-grid.php:144 widgets/post-grid.php:169
+#: widgets/post-grid.php:237 widgets/post-grid.php:274
+msgid "Hide"
+msgstr "Masquer"
+
+#: widgets/post-grid.php:143 widgets/post-grid.php:168
+#: widgets/post-grid.php:236 widgets/post-grid.php:273
+msgid "Show"
+msgstr "Afficher"
+
+#: widgets/post-grid.php:141 widgets/post-grid.php:617
+msgid "Image"
+msgstr "Image"
+
+#: widgets/post-grid.php:132
+msgid "Posts Per Page"
+msgstr "Publications par page"
+
+#: widgets/post-grid.php:110
+msgid "Columns"
+msgstr "Colonnes"
+
+#: widgets/post-grid.php:102
+msgid "Layout 5"
+msgstr "Mise en page 5"
+
+#: widgets/post-grid.php:101
+msgid "Layout 4"
+msgstr "Mise en page 4"
+
+#: widgets/post-grid.php:100
+msgid "Layout 3"
+msgstr "Mise en page 3"
+
+#: widgets/post-grid.php:99
+msgid "Layout 2"
+msgstr "Mise en page 2"
+
+#: widgets/post-grid.php:98
+msgid "Layout 1"
+msgstr "Mise en page 1"
+
+#: widgets/post-grid.php:94
+msgid "Grid Style"
+msgstr "Style de grille"
+
+#: widgets/post-grid.php:87 widgets/post-grid.php:397
+msgid "Layout"
+msgstr "Mise en page"
+
+#: widgets/post-grid.php:24
+msgid "Post Grid"
+msgstr "Grille d’articles"
+
+#: post-grid-elementor-addon.php:203
+msgid "PHP"
+msgstr "PHP"
+
+#: post-grid-elementor-addon.php:156 post-grid-elementor-addon.php:179
+msgid "Elementor"
+msgstr "Elementor"
+
+#. Plugin Name of the plugin
+#: inc/admin.php:17 inc/admin.php:19 post-grid-elementor-addon.php:155
+#: post-grid-elementor-addon.php:178 post-grid-elementor-addon.php:202
+#: post-grid-elementor-addon.php:220
+msgid "Post Grid Elementor Addon"
+msgstr "Post Grid Elementor Addon"
+
+#: widgets/post-grid.php:271 widgets/post-grid.php:867
+msgid "Read More"
+msgstr "En savoir plus"
+
+#: widgets/post-grid.php:283
+msgid "Read More Text"
+msgstr "Texte en savoir plus"
+
+#: widgets/post-grid.php:303
+msgid "Center"
+msgstr "Centré"
+
+#: widgets/post-grid.php:480 widgets/post-grid.php:626
+#: widgets/post-grid.php:1007
+msgid "Border Radius"
+msgstr "Rayon de la bordure"
+
+#: widgets/post-grid.php:501 widgets/post-grid.php:1028
+msgid "Padding"
+msgstr "Marge interne"
+
+#: widgets/post-grid.php:538 widgets/post-grid.php:583
+#: widgets/post-grid.php:929 widgets/post-grid.php:978
+msgid "Border Color"
+msgstr "Couleur de la bordure"
+
+#: widgets/post-grid.php:638 widgets/post-grid.php:734
+#: widgets/post-grid.php:791 widgets/post-grid.php:847
+#: widgets/post-grid.php:1041
+msgid "Margin"
+msgstr "Marge"
+
+#. translators: 1: Plugin name 2: Elementor
+#: post-grid-elementor-addon.php:154
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr "« %1$s » nécessite que « %2$s » soit installé et activé."
+
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: post-grid-elementor-addon.php:177 post-grid-elementor-addon.php:201
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr "« %1$s » nécessite « %2$s » version %3$s ou supérieure."
