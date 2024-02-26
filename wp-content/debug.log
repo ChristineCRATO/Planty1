@@ -137,3 +137,25 @@
 [22-Feb-2024 10:50:15 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
 [22-Feb-2024 10:50:26 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
 [22-Feb-2024 10:50:26 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[26-Feb-2024 16:28:38 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=24440 in F:\wamp64\www\Planty1\wp-includes\class-wpdb.php on line 1987
+[26-Feb-2024 16:28:38 UTC] PHP Stack trace:
+[26-Feb-2024 16:28:38 UTC] PHP   1. {main}() F:\wamp64\www\Planty1\index.php:0
+[26-Feb-2024 16:28:38 UTC] PHP   2. require() F:\wamp64\www\Planty1\index.php:17
+[26-Feb-2024 16:28:38 UTC] PHP   3. require_once() F:\wamp64\www\Planty1\wp-blog-header.php:13
+[26-Feb-2024 16:28:38 UTC] PHP   4. require_once() F:\wamp64\www\Planty1\wp-load.php:50
+[26-Feb-2024 16:28:38 UTC] PHP   5. require_once() F:\wamp64\www\Planty1\wp-config.php:99
+[26-Feb-2024 16:28:38 UTC] PHP   6. require_wp_db() F:\wamp64\www\Planty1\wp-settings.php:124
+[26-Feb-2024 16:28:38 UTC] PHP   7. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'Planty1', $dbhost = 'localhost') F:\wamp64\www\Planty1\wp-includes\load.php:683
+[26-Feb-2024 16:28:38 UTC] PHP   8. wpdb->db_connect($allow_bail = *uninitialized*) F:\wamp64\www\Planty1\wp-includes\class-wpdb.php:767
+[26-Feb-2024 16:28:38 UTC] PHP   9. mysqli_real_connect($mysql = class mysqli { public $client_info = 'mysqlnd 8.0.26'; public $client_version = 80026; public $connect_errno = 0; public $connect_error = NULL; public $errno = 2006; public $error = 'MySQL server has gone away' }, $hostname = 'localhost', $username = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) F:\wamp64\www\Planty1\wp-includes\class-wpdb.php:1987
+[26-Feb-2024 16:28:38 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in F:\wamp64\www\Planty1\wp-includes\class-wpdb.php on line 1987
+[26-Feb-2024 16:28:38 UTC] PHP Stack trace:
+[26-Feb-2024 16:28:38 UTC] PHP   1. {main}() F:\wamp64\www\Planty1\index.php:0
+[26-Feb-2024 16:28:38 UTC] PHP   2. require() F:\wamp64\www\Planty1\index.php:17
+[26-Feb-2024 16:28:38 UTC] PHP   3. require_once() F:\wamp64\www\Planty1\wp-blog-header.php:13
+[26-Feb-2024 16:28:38 UTC] PHP   4. require_once() F:\wamp64\www\Planty1\wp-load.php:50
+[26-Feb-2024 16:28:38 UTC] PHP   5. require_once() F:\wamp64\www\Planty1\wp-config.php:99
+[26-Feb-2024 16:28:38 UTC] PHP   6. require_wp_db() F:\wamp64\www\Planty1\wp-settings.php:124
+[26-Feb-2024 16:28:38 UTC] PHP   7. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'Planty1', $dbhost = 'localhost') F:\wamp64\www\Planty1\wp-includes\load.php:683
+[26-Feb-2024 16:28:38 UTC] PHP   8. wpdb->db_connect($allow_bail = *uninitialized*) F:\wamp64\www\Planty1\wp-includes\class-wpdb.php:767
+[26-Feb-2024 16:28:38 UTC] PHP   9. mysqli_real_connect($mysql = class mysqli { public $client_info = 'mysqlnd 8.0.26'; public $client_version = 80026; public $connect_errno = 2006; public $connect_error = 'MySQL server has gone away'; public $errno = 2006; public $error = 'MySQL server has gone away' }, $hostname = 'localhost', $username = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) F:\wamp64\www\Planty1\wp-includes\class-wpdb.php:1987
