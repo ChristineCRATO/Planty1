@@ -1,49 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+.wp-block-column {
+    margin:0px;
 }
 
 /* MENU */
+
 /* Retirer les efffets sur mes liens de menu */
 
-.nav-menu a:active {
-    outline: none !important;
+.main-menu-link {
+    font-size: 16px !important;
+    margin-right: 30px;
 }
 
 .text-wrap {
-    color:none;
+    outline: none;
 }
 
-#menu-item-27 {
-    color:#000
-}
-
-#menu-item-26 {
+#menu-item-26 .text-wrap {
     background: #DC9F96;
-    color: white;
-    order: 3;
-    height: 80px;
-    padding: 0px 60px 30px 60px;
+    padding: 30px 60px 30px 60px;
+    height: 100px !important;
+    color:#fff !important;
+    font-size: 16px;
+    font-weight: 700;
 }
 
-#menu-item-26:hover {
-    background: #C02E44;
+#menu-item-26 .text-wrap:hover {
+    background-color: #C02E44;
+    margin: 0;
+}
+
+#menu-item-28 .text-wrap {
+    color:#000 !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Accueil */
+
+/* Vagues sur Accueil */
+
+.curved_shadow {
+    background: #ECE2DA;
+    padding-top:30px;
+    padding-bottom: 60px;
+    border-bottom: 0px;
+    border-radius: 100% / 0 0 20% 20%;
+    box-shadow: 0px 10px #e3d9d0;
 }
 
 .curved {
-    position: relative;
-    background: #fff;
-    width: auto;
-    height:300px;
-    margin-bottom: 30px;
-    border-bottom-left-radius: 50% 20%;
-    border-bottom-right-radius: 50% 20%;
-    overflow:hidden;
+    background: #ECE2DA;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 0px;
+    border-radius: 100% / 0 0 10% 10% !important;
+    width: 100%;
 }
 
 /* Les Goûts titre et paragraphe */
@@ -54,14 +67,47 @@
 
 .content h1 {
     color: #d2776a;
-    margin-top:60px;
+    margin-top:20px;
+    font-size: 30px;
 }
 
 .content p {
+    font-family: Syne !important;
     font-size: 20px;
     color: #000;
-    margin-top: 0px;
-    margin-bottom:20px;
+}
+
+.block_avis {
+    margin-right:none;
+}
+
+.avis {
+    line-height: 0;
+}
+
+/* Page "Nous renconter" */
+
+.block_rencontre {
+    background: #ECE2DA;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 0px;
+    border-radius: 100% / 0 0 30% 30%;
+    background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-2.png');
+    background-repeat: no-repeat;
+    background-size: 13%;
+    background-position: top 70px left 150px;
+}
+
+.text_rencontre {
+    line-height: 1;
+}
+
+.block_equipe {
+    background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: bottom 0px right 55px;
 }
 
 /* Footer */
@@ -98,23 +144,18 @@ footer {
 
 /* iPads */
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
-.legend {
-    font-size: 44px;
-}
+
 h2 {
     font-size: 28px;
 }
-h3, .name {
+h3{
     font-size: 28px;
 }
-p, .avis_text {
+p, .avis {
     font-size: 16px;
 }
-.name {
-    font-size: 22px;
-}
 
-.bloc_equip {
+.wp-bloc-group .wp-bloc-heading {
     display: flex;
 }
 #gouts {
@@ -135,12 +176,17 @@ p, .avis_text {
 
 /* Smartphones */
 @media only screen and (min-width : 320px) and (max-width : 767px) {
-.main_header {
+
+    .main_header {
     width: 100%;
     height: 80px;
     display: flex;
     align-items: center;
 }    
+
+.rowimage {
+    flex-direction: column;
+}
 a {
     font-size: 0.8rem;
 }
@@ -150,11 +196,6 @@ a {
 }
 .logo {
     display: none;
-}
-.logo_device {
-    display: block;
-    width: 25%;
-    margin: 10px 20px 10px 10px;
 }
 .main_nav {
     display: flex;
@@ -182,16 +223,13 @@ a {
 .fruit {
     width: 100%;
 }
-.legend {
-    font-size: 40px;
-}
 h2 {
     font-size: 24px;
 }
-h3, .name {
+h3 {
     font-size: 26px;
 }
-p, .avis_text {
+p, .avis {
     font-size: 14px;
 }
 .blocs_avis {
@@ -205,14 +243,14 @@ p, .avis_text {
     padding-top: 50px;
     background-image: none;
 }
-.rencontre_title, .rencontre_text {
+.rencontre_title, .tex_rencontre {
     width: 100%;
     margin: 0 auto;
 }
-.bloc_equip, .formulaire_contact {
+.block_equipe, .formulaire_contact {
     background-image: none;
 }
-.bloc_equip {
+.block_equipe {
     display: flex;
     flex-direction: column;
 }

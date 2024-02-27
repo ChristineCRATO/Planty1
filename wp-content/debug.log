@@ -137,3 +137,218 @@
 [22-Feb-2024 10:50:15 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
 [22-Feb-2024 10:50:26 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
 [22-Feb-2024 10:50:26 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+<<<<<<< HEAD
+[22-Feb-2024 13:36:34 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:36:34 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:36:40 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:36:40 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:38:12 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:38:12 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:38:31 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:38:31 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:39:16 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:39:16 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:39:44 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:39:44 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:44:10 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:44:10 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:44:24 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:44:24 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:46:14 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:46:14 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:46:23 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:46:23 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:48:47 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:48:47 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:49:35 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:49:35 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:49:52 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:49:52 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:50:19 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:50:19 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:50:33 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:50:33 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:50:37 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:50:37 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:55:34 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:55:34 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:56:34 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:56:34 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:58:49 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:58:49 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 13:59:13 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 13:59:13 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 46
+[22-Feb-2024 14:03:31 UTC] PHP Parse error:  syntax error, unexpected '.' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 44
+[22-Feb-2024 14:03:31 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[22-Feb-2024 14:06:40 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 14:06:40 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 14:10:04 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 14:10:04 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 14:14:26 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 14:14:26 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 14:15:15 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 14:15:15 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 16:20:31 UTC] PHP Deprecated:  La fonction the_block_template_skip_link est obsolète depuis la version 6.4.0 ! Utilisez wp_enqueue_block_template_skip_link() à la place. in /Applications/MAMP/htdocs/planty1/wp-includes/functions.php on line 6031
+[22-Feb-2024 16:21:02 UTC] PHP Deprecated:  La fonction the_block_template_skip_link est obsolète depuis la version 6.4.0 ! Utilisez wp_enqueue_block_template_skip_link() à la place. in /Applications/MAMP/htdocs/planty1/wp-includes/functions.php on line 6031
+[22-Feb-2024 16:21:41 UTC] PHP Deprecated:  La fonction the_block_template_skip_link est obsolète depuis la version 6.4.0 ! Utilisez wp_enqueue_block_template_skip_link() à la place. in /Applications/MAMP/htdocs/planty1/wp-includes/functions.php on line 6031
+[22-Feb-2024 16:22:19 UTC] PHP Deprecated:  La fonction the_block_template_skip_link est obsolète depuis la version 6.4.0 ! Utilisez wp_enqueue_block_template_skip_link() à la place. in /Applications/MAMP/htdocs/planty1/wp-includes/functions.php on line 6031
+[22-Feb-2024 16:22:31 UTC] PHP Deprecated:  La fonction the_block_template_skip_link est obsolète depuis la version 6.4.0 ! Utilisez wp_enqueue_block_template_skip_link() à la place. in /Applications/MAMP/htdocs/planty1/wp-includes/functions.php on line 6031
+[22-Feb-2024 16:22:42 UTC] PHP Deprecated:  La fonction the_block_template_skip_link est obsolète depuis la version 6.4.0 ! Utilisez wp_enqueue_block_template_skip_link() à la place. in /Applications/MAMP/htdocs/planty1/wp-includes/functions.php on line 6031
+[22-Feb-2024 16:35:45 UTC] PHP Parse error:  syntax error, unexpected ''menu'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 43
+[22-Feb-2024 16:35:45 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2024 16:38:59 UTC] PHP Parse error:  syntax error, unexpected '$position' (T_VARIABLE), expecting ')' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 44
+[23-Feb-2024 16:38:59 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[23-Feb-2024 17:37:24 UTC] PHP Warning:  array_splice() expects at most 4 parameters, 6 given in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 56
+[23-Feb-2024 17:37:24 UTC] PHP Warning:  array_splice() expects at most 4 parameters, 6 given in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 56
+[25-Feb-2024 15:25:27 UTC] PHP Fatal error:  Cannot redeclare banniere_func() (previously declared in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php:69) in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 98
+[25-Feb-2024 15:25:27 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/planty1/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[25-Feb-2024 15:25:27 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/planty1/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[25-Feb-2024 15:26:10 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:26:37 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:26:59 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:27:03 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:27:11 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:27:12 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:27:12 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:27:19 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:27:20 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:27:20 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:27:25 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:27:30 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:27:31 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:27:31 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:27:38 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:28:10 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:29:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:31:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:31:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 102
+[25-Feb-2024 15:33:39 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 35
+[25-Feb-2024 15:33:39 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2024 15:35:39 UTC] PHP Parse error:  syntax error, unexpected 'get_stylesheet_directory_uri' (T_STRING), expecting ')' in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 35
+[25-Feb-2024 15:35:39 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[25-Feb-2024 15:36:20 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:36:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:36:50 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:36:50 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:36:50 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:37:27 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:37:28 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:37:28 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:37:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:38:54 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:38:55 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:38:55 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:38:58 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:39:30 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:39:33 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:39:33 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:39:33 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:39:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:40:21 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:40:22 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:40:22 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:41:00 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:41:01 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:41:01 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:41:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:41:48 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:41:49 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:41:49 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:42:42 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:42:43 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:42:43 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:42:55 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:42:56 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:42:56 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:43:19 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:43:20 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:43:20 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:43:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:45:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:46:12 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:46:13 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:46:13 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:46:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:46:45 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:46:49 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:46:50 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:46:50 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:47:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:49:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:50:23 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:50:26 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:50:27 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:50:27 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:50:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:51:15 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:51:16 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:51:16 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:51:23 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:51:45 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:52:19 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:52:30 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:52:31 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:52:31 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:52:37 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:52:38 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:52:38 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:52:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:47 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:49 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:51 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:52 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:53 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:54 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:56 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:58 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:58 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:58 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:58 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:58 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:58 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:58 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:58 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:58 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:58 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:58 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:59 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:59 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:59 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:59 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:53:59 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:54:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:54:57 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:56:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:56:57 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:57:39 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:57:42 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:57:46 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:57:47 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:57:47 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:58:40 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+[25-Feb-2024 15:58:58 UTC] PHP Notice:  Undefined variable: atts in /Applications/MAMP/htdocs/planty1/wp-content/themes/oceanwp-child-theme-master/functions.php on line 103
+=======
+[26-Feb-2024 16:28:38 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=24440 in F:\wamp64\www\Planty1\wp-includes\class-wpdb.php on line 1987
+[26-Feb-2024 16:28:38 UTC] PHP Stack trace:
+[26-Feb-2024 16:28:38 UTC] PHP   1. {main}() F:\wamp64\www\Planty1\index.php:0
+[26-Feb-2024 16:28:38 UTC] PHP   2. require() F:\wamp64\www\Planty1\index.php:17
+[26-Feb-2024 16:28:38 UTC] PHP   3. require_once() F:\wamp64\www\Planty1\wp-blog-header.php:13
+[26-Feb-2024 16:28:38 UTC] PHP   4. require_once() F:\wamp64\www\Planty1\wp-load.php:50
+[26-Feb-2024 16:28:38 UTC] PHP   5. require_once() F:\wamp64\www\Planty1\wp-config.php:99
+[26-Feb-2024 16:28:38 UTC] PHP   6. require_wp_db() F:\wamp64\www\Planty1\wp-settings.php:124
+[26-Feb-2024 16:28:38 UTC] PHP   7. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'Planty1', $dbhost = 'localhost') F:\wamp64\www\Planty1\wp-includes\load.php:683
+[26-Feb-2024 16:28:38 UTC] PHP   8. wpdb->db_connect($allow_bail = *uninitialized*) F:\wamp64\www\Planty1\wp-includes\class-wpdb.php:767
+[26-Feb-2024 16:28:38 UTC] PHP   9. mysqli_real_connect($mysql = class mysqli { public $client_info = 'mysqlnd 8.0.26'; public $client_version = 80026; public $connect_errno = 0; public $connect_error = NULL; public $errno = 2006; public $error = 'MySQL server has gone away' }, $hostname = 'localhost', $username = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) F:\wamp64\www\Planty1\wp-includes\class-wpdb.php:1987
+[26-Feb-2024 16:28:38 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in F:\wamp64\www\Planty1\wp-includes\class-wpdb.php on line 1987
+[26-Feb-2024 16:28:38 UTC] PHP Stack trace:
+[26-Feb-2024 16:28:38 UTC] PHP   1. {main}() F:\wamp64\www\Planty1\index.php:0
+[26-Feb-2024 16:28:38 UTC] PHP   2. require() F:\wamp64\www\Planty1\index.php:17
+[26-Feb-2024 16:28:38 UTC] PHP   3. require_once() F:\wamp64\www\Planty1\wp-blog-header.php:13
+[26-Feb-2024 16:28:38 UTC] PHP   4. require_once() F:\wamp64\www\Planty1\wp-load.php:50
+[26-Feb-2024 16:28:38 UTC] PHP   5. require_once() F:\wamp64\www\Planty1\wp-config.php:99
+[26-Feb-2024 16:28:38 UTC] PHP   6. require_wp_db() F:\wamp64\www\Planty1\wp-settings.php:124
+[26-Feb-2024 16:28:38 UTC] PHP   7. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'Planty1', $dbhost = 'localhost') F:\wamp64\www\Planty1\wp-includes\load.php:683
+[26-Feb-2024 16:28:38 UTC] PHP   8. wpdb->db_connect($allow_bail = *uninitialized*) F:\wamp64\www\Planty1\wp-includes\class-wpdb.php:767
+[26-Feb-2024 16:28:38 UTC] PHP   9. mysqli_real_connect($mysql = class mysqli { public $client_info = 'mysqlnd 8.0.26'; public $client_version = 80026; public $connect_errno = 2006; public $connect_error = 'MySQL server has gone away'; public $errno = 2006; public $error = 'MySQL server has gone away' }, $hostname = 'localhost', $username = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) F:\wamp64\www\Planty1\wp-includes\class-wpdb.php:1987
+>>>>>>> 5eae972704bc15a901520582f08477fb8a1dd3e4

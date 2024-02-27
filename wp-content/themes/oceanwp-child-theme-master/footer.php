@@ -7,9 +7,10 @@
 
 ?>
 
-<footer>
+    <footer>
         <a href="http://localhost:8888/planty1/mentions-legales/" class="footer-text footer-link"></a>
     </footer>
+    
 <?php wp_footer(); ?>
 
 </body>
