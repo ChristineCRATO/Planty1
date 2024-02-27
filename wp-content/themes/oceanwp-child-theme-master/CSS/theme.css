@@ -143,6 +143,7 @@ footer {
  /***** Media queries *****/
 
 /* iPads */
+
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
 
 h2 {
@@ -177,7 +178,7 @@ p, .avis {
 /* Smartphones */
 @media only screen and (min-width : 320px) and (max-width : 767px) {
 
-    .main_header {
+.main_header {
     width: 100%;
     height: 80px;
     display: flex;
@@ -243,7 +244,7 @@ p, .avis {
     padding-top: 50px;
     background-image: none;
 }
-.rencontre_title, .tex_rencontre {
+.rencontre_title, .text_rencontre {
     width: 100%;
     margin: 0 auto;
 }
@@ -289,10 +290,10 @@ p, .avis {
     border-bottom: 1px solid white;
     padding-bottom: 45px;
 }
-.formulaire_contact form {
+.form {
     width: 100%;
 }
-.bloc_equip .wp-block-column.is-vertically-aligned-top.is-layout-flow.wp-block-column-is-layout-flow {
+.block_equipe .wp-block-column.is-vertically-aligned-top.is-layout-flow.wp-block-column-is-layout-flow {
     margin-bottom: 40px;
 }
 }
