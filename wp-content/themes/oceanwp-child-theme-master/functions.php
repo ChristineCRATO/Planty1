@@ -73,6 +73,7 @@ function banniere_func($atts)
     // Je récupère l'attributs pour shortcode //
     $atts = shortcode_atts(array(
         'src' => '',
+		'alt' => 'ligne de canette energie',
     ), $atts, 'banniere');
 
 
@@ -102,6 +103,7 @@ function banniere_1_func($atts)
     // Je récupère l'attributs pour shortcode //
     $atts = shortcode_atts(array(
         'src' => '',
+		'alt' => 'ligne de canette energie'
     ), $atts, 'banniere_1');
 
 
