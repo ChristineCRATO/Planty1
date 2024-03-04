@@ -9,6 +9,9 @@
     font-size: 16px !important;
     margin-right: 30px;
 }
+.main-menu-link:active {
+    border:none;
+}
 
 #menu-item-26 .text-wrap {
     background: #DC9F96;
@@ -18,16 +21,21 @@
     font-size: 16px;
     font-weight: 700;
 }
-
 #menu-item-26 .text-wrap:hover {
     background-color: #C02E44;
     margin: 0;
+}
+#menu-item-26:active {
+    border: none;
 }
 
 #menu-item-28 .text-wrap {
     color:#000 !important;
     font-size: 16px;
     font-weight: 400;
+}
+#menu-item-28:active {
+    border: none;
 }
 
 /* Accueil */
@@ -157,6 +165,7 @@
 }
 
 .text_rencontre {
+    padding-top: 160px;
     line-height: 1;
 }
 
@@ -411,12 +420,14 @@ footer {
 }
 
 
-
  /***** Media queries *****/
 
 /* iPads */
 @media only screen and (min-width : 768px) and (max-width : 1024px){
 
+.wp-block-columns {
+    margin: 0 !important;
+    }
 /* Menu */
 .main-menu-link {
     font-size: 14px !important;
@@ -448,7 +459,7 @@ footer {
 
 /* Accueil */
 .energie {
-    font-size: 44px !important;
+    font-size: 35px !important;
 }
 .caption {
     position: absolute;
@@ -477,6 +488,10 @@ footer {
 @media only screen and (min-width : 320px) and (max-width : 767px) {
 
 /* Menu */
+.oceanwp-mobile-menu-icon a.mobile-menu.opened .oceanwp-close-text {
+    display: none;
+}
+
 .main-menu-link {
     width: 100%;
     height: 30px;
@@ -485,34 +500,24 @@ footer {
     font-size: 14px !important;
     padding: 0px 0px 0px 40px !important;
 }
-
-.logo {
-    display: none;
-}
-
 .custom-logo-link {
     display: block;
     width: 25%;
     margin: 10px 20px 10px 10px;
 }
-
 .oceanwp-text {
     display: none;
 }
-
 /* Accueil */
 .energie {
     font-size: 18px !important;
 }
-
 .text-wrap {
     outline: none;
 }
-
 .rowimage {
     flex-direction: column;
 }
-
 .caption {
     position: absolute;
     top:50%;
@@ -520,24 +525,106 @@ footer {
     font-size: 28px;
     transform: translate(-50%, -50%);
 }
-
 .block_avis {
     display: flexbox;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-
 .avis {
     margin-bottom: 20%;
 }
 
 /* Rencontre */
 .block_rencontre {
-    padding-top: 50px;
-    background-image: none;
+    padding-top: 0px;
+    background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-2.png');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: top 5% left 10px;
+}
+.title_rencontre {
+    padding-top: 20px;
+    font-size: 25px;
+}
+.text_rencontre {
+    padding-top: 40px;
+}
+.block_equipe {
+    background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-position: bottom 0px right 3px;
+}
+.contact {
+	background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-16.png');
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: bottom 100px left 1px;
 }
 
 /* Commande */
-
+.cde {
+    margin:0;
+    padding:60px 29px 10px;
+    text-align:center;
+    background: #3B8E46;
+}
+.titre1-cde {
+    font-size: 21px;
+    padding-bottom:30px;
+    color:#ffff !important;
+}
+.titre2-cde {
+    font-size: 19px;
+    text-align:start !important;
+    color:#ffff !important;
+}
+.image-gouts {
+    flex-direction: column;
+}
+.overlayC {
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color:inherit;
+    padding: 20px 20px;
+}
+.text-whiteC {
+    display:inline-block;
+    width:100%;
+    font-size: 28px;
+    color: #ffff;
+    text-align: center;
+}
+.form {
+    flex-direction: column;
+}
+.labelfont {
+    font-size:15px;
+    font-weight:400;
+}
+.separator-vertical {
+    width: 100% !important; 
+    height: 1px !important;
+    background-color: #ffff;
+    margin-left: 0px !important;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.button-cde {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width:100%;
+    height:60px;
+}
+.button {
+    padding: 16px 20px;
+    background-color: #E0B9B4; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:13px;
+}
 }
