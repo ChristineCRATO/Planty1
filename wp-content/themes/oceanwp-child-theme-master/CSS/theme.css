@@ -39,11 +39,13 @@
 }
 
 /* Accueil */
+.energie {
+    margin-bottom: 60px;
+}
 /* Galerie images goûts + bouton */
 .image-goutsA {
     padding:10px 20px 0px 20px;
 }
-
 .rowimage {
     display: flex;
     justify-content: center;
@@ -68,7 +70,7 @@
 	font-family:Syne !important;
 	font-weight:800;
 	color: #fff;
-	font-size:36px;
+	font-size:44px;
 	line-height:1.3;
 	text-align:center;
 	max-width:100%;
@@ -138,41 +140,48 @@
     border-radius: 100% / 0 0 10% 10% !important;
     width: 100%;
 }
-
+.pense {
+    margin-top: 80px;
+}
 .block_avis{
     display: flexbox;
     flex-direction: row;
     justify-content: center;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .avis {
     line-height: 1.3;
-    margin-bottom: 100px;
 }
 
 /* Nous renconter */
+.title_rencontre {
+    padding-bottom: 40px;
+}
+.text_rencontre {
+    padding-top: 160px;
+    line-height: 1;
+}
 .block_rencontre {
     background: #ECE2DA;
     padding-top: 30px;
-    padding-bottom: 20px;
-    border-bottom: 0px;
+    padding-bottom: 70px;
     border-radius: 100% / 0 0 30% 30%;
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-2.png');
     background-repeat: no-repeat;
     background-size: 13%;
     background-position: top 70px left 150px;
 }
-
-.text_rencontre {
-    padding-top: 160px;
-    line-height: 1;
+.title_equip {
+    margin-top: 70px;
+    margin-bottom: 60px;
 }
-
 .block_equip {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .block_equipe {
@@ -282,9 +291,10 @@
 
 .text-whiteC {
     display:inline-block;
-    width:150px;
+    width:180px;
     color: #ffff;
     text-align: center;
+    font-size: 24px;
 }
 
 .quantity input[type="number"] {
@@ -425,13 +435,9 @@ footer {
 /* iPads */
 @media only screen and (min-width : 768px) and (max-width : 1024px){
 
-.wp-block-columns {
-    margin: 0 !important;
-    }
 /* Menu */
 .main-menu-link {
     font-size: 14px !important;
-    padding: O !important;
 }
 #menu-item-26 .text-wrap {
     background: #DC9F96;
@@ -443,7 +449,6 @@ footer {
 }
 #menu-item-26 .text-wrap:hover {
     background-color: #C02E44;
-    margin: 0;
 }
 #menu-item-28 .text-wrap {
     color:#000 !important;
@@ -468,10 +473,14 @@ footer {
     font-size: 38px;
     transform: translate(-50%, -50%);
 }
-.wp-block-columns {
+.pense {
+    margin-bottom: 60px;
+}
+.block_avis{
     display: flex;
     flex-direction: row;
-    margin-top: 15%;
+    justify-content: center;
+    margin-top: 10px;
 }
 .avis {
     line-height: 1.3;
@@ -479,9 +488,108 @@ footer {
 }
 
 /* Rencontre */
+.block_rencontre {
+    padding-top: 0px;
+    background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-2.png');
+    background-repeat: no-repeat;
+    background-size: 13%;
+    background-position: top 20% left 13px;
+}
+.title_rencontre {
+    padding-top: 40px;
+    font-size: 28px;
+}
+.text_rencontre {
+    padding-top: 70px;
+}
+.block_equip {
+    display: flex;
+    flex-direction: row;
+}
+.block_equipe {
+    padding-top: 15px;
+    background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: bottom 0% right 7%;
+}
+.contact {
+	background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-16.png');
+	background-repeat: no-repeat;
+	background-size: 20%;
+	background-position: bottom 14% left 18%;
+}
 
 /* Commande */
-
+.cde {
+    padding:60px 60px 10px;
+    text-align:center;
+    background: #3B8E46;
+}
+.titre1-cde {
+    font-size: 30px;
+    padding-bottom:30px;
+    color:#ffff !important;
+}
+.titre2-cde {
+    font-size: 25px;
+    text-align:start !important;
+    color:#ffff !important;
+}
+.image-gouts {
+    flex-direction: row;
+}
+.overlayC {
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color:inherit;
+    padding: 20px 20px;
+}
+.text-whiteC {
+    display:inline-block;
+    width:100%;
+    font-size: 20px;
+    color: #ffff;
+    text-align: center;
+}
+.form {
+    flex-direction: column;
+    padding: 60px 60px 10px;
+}
+.labelfont {
+    font-size:15px;
+    font-weight:400;
+}
+.separator {
+    width: 100%; 
+    height: 1px !important;
+    background-color: #ffff; 
+    margin-bottom:30px;
+}
+.separator-vertical {
+    width: 100% !important; 
+    height: 1px !important;
+    background-color: #ffff;
+    margin-left: 0px !important;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.button-cde {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width:100%;
+    height:60px;
+}
+.button {
+    padding: 16px 20px;
+    background-color: #E0B9B4; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:13px;
+}
 }
 
 /* Smartphones */
@@ -491,10 +599,9 @@ footer {
 .oceanwp-mobile-menu-icon a.mobile-menu.opened .oceanwp-close-text {
     display: none;
 }
-
 .main-menu-link {
     width: 100%;
-    height: 30px;
+    height: 30%;
     display: flex;
     align-items: center;
     font-size: 14px !important;
@@ -517,6 +624,7 @@ footer {
 }
 .rowimage {
     flex-direction: column;
+    margin-bottom: 0;
 }
 .caption {
     position: absolute;
@@ -525,6 +633,9 @@ footer {
     font-size: 28px;
     transform: translate(-50%, -50%);
 }
+.pense {
+    font-size: 25px !important;
+}
 .block_avis {
     display: flexbox;
     flex-direction: column;
@@ -532,7 +643,7 @@ footer {
     text-align: center;
 }
 .avis {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 /* Rencontre */
@@ -541,7 +652,7 @@ footer {
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-2.png');
     background-repeat: no-repeat;
     background-size: 20%;
-    background-position: top 5% left 10px;
+    background-position: top 5% left 10%;
 }
 .title_rencontre {
     padding-top: 20px;
@@ -554,13 +665,13 @@ footer {
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
     background-repeat: no-repeat;
     background-size: 33%;
-    background-position: bottom 0px right 3px;
+    background-position: bottom 0px right 3%;
 }
 .contact {
 	background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-16.png');
 	background-repeat: no-repeat;
 	background-size: 30%;
-	background-position: bottom 100px left 1px;
+	background-position: bottom 100% left 1%;
 }
 
 /* Commande */
