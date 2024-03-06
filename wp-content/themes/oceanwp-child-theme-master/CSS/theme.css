@@ -466,6 +466,9 @@ footer {
 .energie {
     font-size: 35px !important;
 }
+.plante {
+    padding-bottom: 30px;
+}
 .caption {
     position: absolute;
     top:50%;
@@ -482,9 +485,28 @@ footer {
     justify-content: center;
     margin-top: 10px;
 }
+.wp-image-52 {
+    width: 90px !important;
+    height: 100px !important;
+}
+.wp-image-53 {
+    width: 90px !important;
+    height: 100px !important;
+}
+.wp-image-57 {
+    width: 90px !important;
+    height: 100px !important;
+}
+.nom {
+    font-size: 23px !important;
+}
 .avis {
     line-height: 1.3;
-    font-size: 16px !important;
+    font-size: 13px !important;
+}
+.wp-block-column-is-layout-flow {
+    flex-basis: 0 !important;
+    width: 50% !important;
 }
 
 /* Rencontre */
@@ -505,13 +527,19 @@ footer {
 .block_equip {
     display: flex;
     flex-direction: row;
+    padding: 0px !important;
 }
 .block_equipe {
     padding-top: 15px;
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
     background-repeat: no-repeat;
-    background-size: 25%;
-    background-position: bottom 0% right 7%;
+    background-size: 16%;
+    background-position: bottom 0% right 0%;
+}
+.wp-block-columns {
+    margin-left: 80px;
+    width: 80%;
+    height: 80%;
 }
 .contact {
 	background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-16.png');
@@ -550,7 +578,7 @@ footer {
 .text-whiteC {
     display:inline-block;
     width:100%;
-    font-size: 20px;
+    font-size: 18px;
     color: #ffff;
     text-align: center;
 }
@@ -559,7 +587,7 @@ footer {
     padding: 60px 60px 10px;
 }
 .labelfont {
-    font-size:15px;
+    font-size:16px;
     font-weight:400;
 }
 .separator {
@@ -594,74 +622,89 @@ footer {
 
 /* Smartphones */
 @media only screen and (min-width : 320px) and (max-width : 767px) {
-
-/* Menu */
-.oceanwp-mobile-menu-icon a.mobile-menu.opened .oceanwp-close-text {
-    display: none;
-}
-.main-menu-link {
-    width: 100%;
-    height: 30%;
-    display: flex;
-    align-items: center;
-    font-size: 14px !important;
-    padding: 0px 0px 0px 40px !important;
-}
-.custom-logo-link {
-    display: block;
-    width: 25%;
-    margin: 10px 20px 10px 10px;
-}
-.oceanwp-text {
-    display: none;
-}
-/* Accueil */
-.energie {
-    font-size: 18px !important;
-}
-.text-wrap {
-    outline: none;
-}
-.rowimage {
-    flex-direction: column;
-    margin-bottom: 0;
-}
-.caption {
-    position: absolute;
-    top:50%;
-	left:50%;
-    font-size: 28px;
-    transform: translate(-50%, -50%);
-}
-.pense {
-    font-size: 25px !important;
-}
-.block_avis {
-    display: flexbox;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-.avis {
-    margin-bottom: 10%;
-}
-
-/* Rencontre */
-.block_rencontre {
-    padding-top: 0px;
-    background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-2.png');
-    background-repeat: no-repeat;
-    background-size: 20%;
-    background-position: top 5% left 10%;
-}
-.title_rencontre {
-    padding-top: 20px;
-    font-size: 25px;
-}
-.text_rencontre {
-    padding-top: 40px;
-}
-.block_equipe {
+    
+    /* Menu */
+    .oceanwp-mobile-menu-icon a.mobile-menu.opened .oceanwp-close-text {
+        display: none;
+    }
+    .main-menu-link {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        font-size: 14px !important;
+        padding: 0px 0px 0px 40px !important;
+    }
+    .custom-logo-link {
+        display: block;
+        width: 25%;
+        margin: 10px 20px 10px 10px;
+    }
+    .oceanwp-text {
+        display: none;
+    }
+    /* Accueil */
+    .energie {
+        font-size: 18px !important;
+    }
+    .text-wrap {
+        outline: none;
+    }
+    .energie-plante {
+        padding-top: 0px !important;
+    }
+    .plante {
+        padding-top: O !important;
+        padding-bottom: 30px;
+        font-size: 18px !important;
+    }
+    .text_plante {
+        font-size: 16px !important;
+    }
+    .rowimage {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .caption {
+        position: absolute;
+        top:50%;
+        left:50%;
+        font-size: 28px;
+        transform: translate(-50%, -50%);
+    }
+    .block_avis {
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .pense {
+        font-size: 22px !important;
+    }
+    .avis {
+        margin-bottom: 10%;
+    }
+    
+    /* Rencontre */
+    .block_rencontre {
+        padding-top: 0px;
+        background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-2.png');
+        background-repeat: no-repeat;
+        background-size: 20%;
+        background-position: top 7% left 10%;
+    }
+    .title_rencontre {
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    .text_rencontre {
+        padding-top: 40px;
+    }
+    .block_equip {
+    display: flexbox !important;
+    flex-direction: column !important;
+    }
+    .block_equipe {
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
     background-repeat: no-repeat;
     background-size: 33%;
@@ -671,7 +714,7 @@ footer {
 	background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-16.png');
 	background-repeat: no-repeat;
 	background-size: 30%;
-	background-position: bottom 100% left 1%;
+	background-position: bottom 16% left 1%;
 }
 
 /* Commande */
