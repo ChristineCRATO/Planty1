@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
-
 .wp-block-columns {
-    margin:0px;
+    margin:0;
 }
 
 /* MENU */
@@ -44,7 +42,7 @@
 }
 /* Galerie images goûts + bouton */
 .image-goutsA {
-    padding:10px 20px 0px 20px;
+    padding:10px 20px 0 20px;
 }
 .rowimage {
     display: flex;
@@ -100,9 +98,9 @@
     background: #ECE2DA;
     padding-top:30px;
     padding-bottom: 60px;
-    border-bottom: 0px;
+    border-bottom: 0;
     border-radius: 100% / 0 0 20% 20%;
-    box-shadow: 0px 10px #e3d9d0;
+    box-shadow: 0 10px #e3d9d0;
 }
 
 .energie-plante {
@@ -122,7 +120,7 @@
 .content h1 {
     color: #d2776a;
     margin-top:20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     font-size: 30px;
 }
 
@@ -136,7 +134,7 @@
     background: #ECE2DA;
     padding-top: 30px;
     padding-bottom: 10px;
-    border-bottom: 0px;
+    border-bottom: 0;
     border-radius: 100% / 0 0 10% 10% !important;
     width: 100%;
 }
@@ -188,7 +186,7 @@
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
     background-repeat: no-repeat;
     background-size: 13%;
-    background-position: bottom 0px right 55px;
+    background-position: bottom 0 right 55px;
 }
 
 /* Formulaire de Contact */
@@ -326,8 +324,8 @@
 
 .form-form {
     width:100%;
-    margin:0px;
-    padding:20px 0px 0px 0px;
+    margin:0;
+    padding:20px 0 0 0;
     text-align:start;
     color:#ffff;
 }
@@ -527,14 +525,14 @@ footer {
 .block_equip {
     display: flex;
     flex-direction: row;
-    padding: 0px !important;
+    padding: 0 !important;
 }
 .block_equipe {
     padding-top: 15px;
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
     background-repeat: no-repeat;
     background-size: 16%;
-    background-position: bottom 0% right 0%;
+    background-position: bottom 0 right 0;
 }
 .wp-block-columns {
     margin-left: 80px;
@@ -600,7 +598,7 @@ footer {
     width: 100% !important; 
     height: 1px !important;
     background-color: #ffff;
-    margin-left: 0px !important;
+    margin-left: 0 !important;
     margin-top: 30px;
     margin-bottom:30px;
 }
@@ -633,7 +631,7 @@ footer {
         display: flex;
         align-items: center;
         font-size: 14px !important;
-        padding: 0px 0px 0px 40px !important;
+        padding: 0 0 0 40px !important;
     }
     .custom-logo-link {
         display: block;
@@ -651,7 +649,7 @@ footer {
         outline: none;
     }
     .energie-plante {
-        padding-top: 0px !important;
+        padding-top: 0 !important;
     }
     .plante {
         padding-top: O !important;
@@ -687,7 +685,7 @@ footer {
     
     /* Rencontre */
     .block_rencontre {
-        padding-top: 0px;
+        padding-top: 0;
         background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-2.png');
         background-repeat: no-repeat;
         background-size: 20%;
@@ -708,7 +706,7 @@ footer {
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
     background-repeat: no-repeat;
     background-size: 33%;
-    background-position: bottom 0px right 3%;
+    background-position: bottom 0 right 3%;
 }
 .contact {
 	background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-16.png');
@@ -763,7 +761,7 @@ footer {
     width: 100% !important; 
     height: 1px !important;
     background-color: #ffff;
-    margin-left: 0px !important;
+    margin-left: 0 !important;
     margin-top: 30px;
     margin-bottom:30px;
 }

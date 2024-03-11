@@ -59,7 +59,7 @@ function add_admin_link($items, $args) {
 
 // Ajout lien Admin dans Menu //
 add_filter('wp_nav_menu_items', 'add_admin_link', 10, 2);
-// Ajout //
+// Ajout ContactForm7 //
 add_filter('wpcf7_autop_or_not', '__return_false');
 
 
