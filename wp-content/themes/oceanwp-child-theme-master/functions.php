@@ -27,12 +27,12 @@ function oceanwp_child_enqueue_parent_style() {
 
 	// Chargement du style.css du thème parent OceanWP
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'oceanwp-style' ), $version );
-	// Chargement css/theme.css pour nos personnalisations
-    wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/css/theme.css',array(), filemtime(get_stylesheet_directory() . '/css/theme.css'));	
-	// Chargement du /css/banniere.css pour le shortcode banniere accueil
-	wp_enqueue_style('banniere-shortcode', get_stylesheet_directory_uri() . '/css/banniere.css', array(), filemtime(get_stylesheet_directory() . '/css/banniere.css'));
-	// Chargement du /css/banniere-1.css pour le shortcode banniere contact
-	wp_enqueue_style('banniere-1-shortcode', get_stylesheet_directory_uri() . '/css/banniere-1.css', array(), filemtime(get_stylesheet_directory() . '/css/banniere-1.css'));
+	// Chargement CSS/theme.css pour nos personnalisations
+    wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/CSS/theme.css',array(), filemtime(get_stylesheet_directory() . '/CSS/theme.css'));	
+	// Chargement du /CSS/banniere.css pour le shortcode banniere accueil
+	wp_enqueue_style('banniere-shortcode', get_stylesheet_directory_uri() . '/CSS/banniere.css', array(), filemtime(get_stylesheet_directory() . '/CSS/banniere.css'));
+	// Chargement du /CSS/banniere-1.css pour le shortcode banniere contact
+	wp_enqueue_style('banniere-1-shortcode', get_stylesheet_directory_uri() . '/CSS/banniere-1.css', array(), filemtime(get_stylesheet_directory() . '/CSS/banniere-1.css'));
 
 }
 
