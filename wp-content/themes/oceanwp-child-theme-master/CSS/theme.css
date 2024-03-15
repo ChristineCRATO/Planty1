@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
 /* MENU */
 .main-menu-link {
     font-size: 16px !important;
@@ -38,53 +40,57 @@
 }
 .energie {
     margin-bottom: 60px;
+    line-height: 1.3 !important;
 }
-/* Galerie images goûts + bouton */
-.image-goutsA {
-    padding:10px 20px 0 20px;
+.energie-plante {
+    margin: 80px 0 80px 0 !important;
 }
-.rowimage {
+.text_plante {
+    line-height: 1 !important;
+}
+/* Les Goûts titre et paragraphe */
+.gout-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.gout-block {
     display: flex;
     justify-content: center;
-	margin-bottom:15px;
+    padding: 0;
+    margin: 0;
+}
+.gout-row {
+    padding-top: 40px;
+}
+.block_gouts {
+    padding-top: 40px !important;
+}
+.wp-block-cover {
+    padding:0;
+    width: 393px;
+    height: 262px;
+}
+.wp-block-group {
+    margin-bottom: 0;
+}
+p {
+    margin: 0;
 }
 
-.image-containerA {
-	position:relative;
-    padding:15px;
-}
+/* Galerie images goûts + bouton */
 
-.image-containerA img {
-    max-width: 100%; 
-	/* Empêche les images de dépasser de leur conteneur */
-}
-
-.caption {
-    position: absolute;
-	top:140px;
-	left:205px;
-	transform: translate(-50%, -50%);
-	font-family:Syne !important;
-	font-weight:800;
-	color: #fff;
-	font-size:44px;
-	line-height:1.3;
-	text-align:center;
-	max-width:100%;
-	white-space:nowrap;
-}
 
 /* Bouton Accueil */
-.button-containerA {
+.eb-button {
     text-align: center;
 	padding-top:20px;
-	padding-bottom:40px;
+	padding-bottom:20px;
 }
-.commander-btnA {
+.eb-button-anchor {
     display: inline-block;
-    padding: 15px 60px;
-	border-radius:7px;
-    background-color: #E0B9B4; 
+    padding: 15px 60px !important;
+	border-radius:7px !important;
+    background-color: #E0B9B4 !important; 
     color: #fff;
 	font-size:15px;
     text-decoration: none; 
@@ -98,7 +104,7 @@
     padding-top:30px;
     padding-bottom: 60px;
     border-bottom: 0;
-    border-radius: 100% / 0 0 20% 20%;
+    border-radius: 100% / 0 0 10% 10%;
     box-shadow: 0 10px #e3d9d0;
 }
 
@@ -108,25 +114,8 @@
 }
 
 .has-text-align-center {
-    line-height: normal;
-}
-
-/* Les Goûts titre et paragraphe */
-.content {
-    text-align: center;
-}
-
-.content h1 {
-    color: #d2776a;
-    margin-top:20px;
-    margin-bottom: 0;
-    font-size: 30px;
-}
-
-.content p {
-    font-family: Syne !important;
-    font-size: 20px;
-    color: #000;
+    line-height: 0.7;
+    font-family: "syne"!important;
 }
 
 .curved {
@@ -147,9 +136,15 @@
     margin-top: 100px;
     margin-bottom: 50px;
 }
-
 .avis {
     line-height: 1.3;
+}
+.banniere {
+    height: 162px;
+}
+.banniere2 {
+    height: 162px;
+    background-color: #ECE2DA;
 }
 
 /* Nous renconter */
@@ -162,30 +157,30 @@
 }
 .block_rencontre {
     background: #ECE2DA;
-    padding-top: 30px;
-    padding-bottom: 70px;
-    border-radius: 100% / 0 0 30% 30%;
+    padding-top: 30px !important;
+    padding-bottom: 70px !important;
+    border-radius: 100% / 0 0 30% 30% !important;
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-2.png');
     background-repeat: no-repeat;
-    background-size: 13%;
-    background-position: top 70px left 150px;
+    background-size: 13% !important;
+    background-position: top 45px left 150px !important;
 }
 .title_equip {
     margin-top: 70px;
     margin-bottom: 60px;
 }
 .block_equip {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
     margin-bottom: 50px;
 }
 
 .block_equipe {
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
     background-repeat: no-repeat;
-    background-size: 13%;
-    background-position: bottom 0 right 55px;
+    background-size: 13% !important;
+    background-position: bottom 0 right 55px !important;
 }
 
 /* Formulaire de Contact */
@@ -196,8 +191,8 @@
 	background:#ECE2DA;
 	background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-16.png');
 	background-repeat: no-repeat;
-	background-size: 12%;
-	background-position: bottom 80px left 450px;
+	background-size: 12% !important;
+	background-position: bottom 80px left 460px !important;
 }
 
 .titre2-contact {
@@ -245,8 +240,8 @@
 
 /* Commander */
 .cde {
-    margin:0;
-    padding:60px 290px 100px;
+    margin:0 0 20px !important;
+    padding:60px 290px 30px !important;
     text-align:center;
     background: #3B8E46;
 }
@@ -254,15 +249,18 @@
 .titre1-cde {
     padding-bottom:30px;
     color:#ffff !important;
+    font-size: 38px !important;
 }
 
 .titre2-cde {
     text-align:start !important;
     color:#ffff !important;
+    font-size: 30px !important;
 }
 
 .image-gouts {
     display: flex;
+    flex-direction: row !important;
     justify-content: space-between;
     margin-top:40px;
 }
@@ -272,18 +270,18 @@
 }
 
 .image-containerC {
-    position: relative;
-    display: space-between;
-    padding:10px;
+    position: relative !important;
+    display: space-between !important;
+    padding: 10px;
 }
 
 .overlayC {
-    position: absolute;
-    top:30%;
-    left:50%;
-    transform: translate(-50%, -50%);
+    position: absolute !important;
+    top:30% !important;
+    left:50% !important;
+    transform: translate(-50%, -50%) !important;
     background-color:inherit;
-    padding: 20px 20px;
+    padding: 20px 20px !important;
 }
 
 .text-whiteC {
@@ -291,7 +289,7 @@
     width:180px;
     color: #ffff;
     text-align: center;
-    font-size: 24px;
+    font-size: 24px !important;
 }
 
 .quantity input[type="number"] {
@@ -319,13 +317,15 @@
 .form {
     display:flex;
     justify-content:space-between;
+    flex-direction: row !important;
+    padding: 0 !important;
 }
 
 .form-form {
-    width:100%;
-    margin:0;
-    padding:20px 0 0 0;
-    text-align:start;
+    width:100% !important;
+    margin:0 !important;
+    padding:20px 0 0 0 !important;
+    text-align:start !important;
     color:#ffff;
 }
 
@@ -381,18 +381,18 @@ textarea {
 
 /* Séparateur */
 .separator {
-    width: 100%; 
+    width: 100% !important; 
     height: 1px !important;
     background-color: #ffff; 
-    margin-bottom:30px;
+    margin-bottom:30px !important;
 }
 
 .separator-vertical {
     width: 2px !important;
-    height:447px;
-    margin-top:20px;
-    margin-left:40px;
-    margin-right:40px;
+    height:447px !important;
+    margin-top:20px !important;
+    margin-left:40px !important;
+    margin-right:40px !important;
     background-color:#ffff;
 }
 
@@ -401,8 +401,8 @@ textarea {
 footer {
     text-align: center;
     background-color: #FFFF;
-    margin-top: 0;
-    padding: 20px; /* Espace intérieur du pied de page */
+    height: 40px;
+    width: 1470px;
  }
  
  footer a {
@@ -413,7 +413,7 @@ footer {
  
  .footer-text {
     font-size: 16px;
-    text-decoration: none !important;
+    text-decoration: none;
  }
 
  .footer-text:hover {
@@ -502,8 +502,15 @@ footer {
     font-size: 13px !important;
 }
 .wp-block-column-is-layout-flow {
-    flex-basis: 0 !important;
-    width: 50% !important;
+    flex-basis: 0 ;
+    width: 50% ;
+}
+.banniere {
+	height: 135px;
+}
+.banniere2 {
+    height: 135px;
+}
 }
 
 /* Rencontre */
@@ -524,7 +531,7 @@ footer {
 .block_equip {
     display: flex;
     flex-direction: row;
-    padding: 0 !important;
+    padding: 0;
 }
 .block_equipe {
     padding-top: 15px;
@@ -532,11 +539,6 @@ footer {
     background-repeat: no-repeat;
     background-size: 16%;
     background-position: bottom 0 right 0;
-}
-.wp-block-columns {
-    margin-left: 80px;
-    width: 80%;
-    height: 80%;
 }
 .contact {
 	background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-16.png');
@@ -589,15 +591,15 @@ footer {
 }
 .separator {
     width: 100%; 
-    height: 1px !important;
+    height: 1px;
     background-color: #ffff; 
     margin-bottom:30px;
 }
 .separator-vertical {
-    width: 100% !important; 
-    height: 1px !important;
+    width: 100%; 
+    height: 1px;
     background-color: #ffff;
-    margin-left: 0 !important;
+    margin-left: 0;
     margin-top: 30px;
     margin-bottom:30px;
 }
@@ -614,7 +616,6 @@ footer {
     border-radius: 5px;
     cursor: pointer;
     font-size:13px;
-}
 }
 
 /* Smartphones */
@@ -681,6 +682,13 @@ footer {
     .avis {
         margin-bottom: 10%;
     }
+    .banniere {
+        height: 80px;
+    }
+    .banniere2 {
+        height: 80px;
+    }
+    }
     
     /* Rencontre */
     .block_rencontre {
@@ -698,8 +706,8 @@ footer {
         padding-top: 40px;
     }
     .block_equip {
-    display: flexbox !important;
-    flex-direction: column !important;
+    display: flexbox;
+    flex-direction: column;
     }
     .block_equipe {
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
@@ -757,10 +765,10 @@ footer {
     font-weight:400;
 }
 .separator-vertical {
-    width: 100% !important; 
-    height: 1px !important;
+    width: 100%; 
+    height: 1px;
     background-color: #ffff;
-    margin-left: 0 !important;
+    margin-left: 0;
     margin-top: 30px;
     margin-bottom:30px;
 }
@@ -777,5 +785,4 @@ footer {
     border-radius: 5px;
     cursor: pointer;
     font-size:13px;
-}
 }

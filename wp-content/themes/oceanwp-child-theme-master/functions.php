@@ -29,11 +29,6 @@ function oceanwp_child_enqueue_parent_style() {
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'oceanwp-style' ), $version );
 	// Chargement CSS/theme.css pour nos personnalisations
     wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/CSS/theme.css',array(), filemtime(get_stylesheet_directory() . '/CSS/theme.css'));	
-	// Chargement du /CSS/banniere.css pour le shortcode banniere accueil
-	wp_enqueue_style('banniere-shortcode', get_stylesheet_directory_uri() . '/CSS/banniere.css', array(), filemtime(get_stylesheet_directory() . '/CSS/banniere.css'));
-	// Chargement du /CSS/banniere-1.css pour le shortcode banniere contact
-	wp_enqueue_style('banniere-1-shortcode', get_stylesheet_directory_uri() . '/CSS/banniere-1.css', array(), filemtime(get_stylesheet_directory() . '/CSS/banniere-1.css'));
-
 }
 
 // Thème enfant //
@@ -61,66 +56,3 @@ function add_admin_link($items, $args) {
 add_filter('wp_nav_menu_items', 'add_admin_link', 10, 2);
 // Ajout ContactForm7 //
 add_filter('wpcf7_autop_or_not', '__return_false');
-
-
-// SHORTCODE //
-
-// Chargement CSS Bannière de canette Planty Accueil //
-add_shortcode('banniere_shortcode', 'banniere_func');
-
-function banniere_func($atts)
-{
-    // Je récupère l'attributs pour shortcode //
-    $atts = shortcode_atts(array(
-        'src' => '',
-		'alt' => 'ligne de canette energie',
-    ), $atts, 'banniere');
-
-
-// Récup flux d'info //
-ob_start();
-
-if($atts['src'] != ""){
-	?>
-
-	<div class="banniere" style="background-image: url(<?= $atts['src'] ?>)">
-	</div>
-
-	<?php
-}
-
-$output = ob_get_contents();
-ob_end_clean();
-
-return $output;
-}
-
-// Chargement CSS Bannière de canette Planty Contact //
-add_shortcode('banniere_1_shortcode', 'banniere_1_func');
-
-function banniere_1_func($atts)
-{
-    // Je récupère l'attributs pour shortcode //
-    $atts = shortcode_atts(array(
-        'src' => '',
-		'alt' => 'ligne de canette energie'
-    ), $atts, 'banniere_1');
-
-
-// Récup flux d'info //
-ob_start();
-
-if($atts['src'] != ""){
-	?>
-
-	<div class="banniere-1" style="background-image: url(<?= $atts['src'] ?>)">
-	</div>
-
-	<?php
-}
-
-$output = ob_get_contents();
-ob_end_clean();
-
-return $output;
-}
