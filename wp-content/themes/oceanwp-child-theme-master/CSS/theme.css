@@ -663,6 +663,9 @@ footer {
     font-size: 39px !important;
     font-family: 'syne';
 }
+.nom {
+    font-size: 25px !important;
+}
 
 /* Nous rencontrer */
 .block_rencontre {
