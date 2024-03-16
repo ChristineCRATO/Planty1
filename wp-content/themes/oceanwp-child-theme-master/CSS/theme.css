@@ -8,7 +8,6 @@
 .main-menu-link:active {
     border:none;
 }
-
 #menu-item-26 .text-wrap {
     background: #DC9F96;
     padding: 30px 60px 30px 60px;
@@ -114,7 +113,7 @@ p {
 }
 
 .has-text-align-center {
-    line-height: 0.7;
+    line-height: 1.2;
     font-family: "syne"!important;
 }
 
@@ -137,6 +136,7 @@ p {
     margin-bottom: 50px;
 }
 .avis {
+    padding-bottom: 30px;
     line-height: 1.3;
 }
 .banniere {
@@ -149,21 +149,22 @@ p {
 
 /* Nous renconter */
 .title_rencontre {
+    font-size: 38px;
     padding-bottom: 40px;
 }
 .text_rencontre {
     padding-top: 160px;
-    line-height: 1;
+    line-height: 1.8;
 }
 .block_rencontre {
     background: #ECE2DA;
-    padding-top: 30px !important;
-    padding-bottom: 70px !important;
-    border-radius: 100% / 0 0 30% 30% !important;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    border-radius: 100% / 0 0 30% 30%;
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-2.png');
     background-repeat: no-repeat;
-    background-size: 13% !important;
-    background-position: top 45px left 150px !important;
+    background-size: 13%;
+    background-position: top 87px left 150px;
 }
 .title_equip {
     margin-top: 70px;
@@ -396,7 +397,6 @@ textarea {
     background-color:#ffff;
 }
 
-
 /* Footer */
 footer {
     text-align: center;
@@ -429,19 +429,189 @@ footer {
 
  /***** Media queries *****/
 
+/* Smartphones */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+    
+    /* Menu */
+    .oceanwp-mobile-menu-icon a.mobile-menu.opened .oceanwp-close-text {
+        display: none;
+    }
+    .custom-logo-link {
+        display: block;
+        width: 25%;
+        margin: 10px 20px 10px 0;
+    }
+    .oceanwp-text {
+        display: none;
+    }
+    /* Accueil */
+    .energie {
+        padding: 0 !important;
+        font-size: 19px !important;
+    }
+    .wp-block-column {
+        max-width: 100%;
+    }
+    .wp-block-columns {
+        display: flex;
+        flex-direction: column;
+        max-width: 90%; 
+    }
+    .wp-block-cover__image-background {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .block_gouts {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .wp-block-cover {
+        max-width: 100%;
+        width: 250px;
+        margin: 0;
+        padding: 0;
+    }
+    .gout-row {
+        max-width: 100%;
+    }
+    .fruit-text {
+        font-size: 24px !important;
+    }
+    .block_avis {
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .banniere {
+        max-width: 100%;
+    }
+
+    /* Rencontre */
+    .title_rencontre {
+        padding: 0;
+        font-size: 20px;
+    }
+    .text_rencontre {
+        padding-top: 90px;
+    }
+    .block_rencontre {
+        padding-top: 0;
+        background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-2.png');
+        background-repeat: no-repeat;
+        background-size: 20%;
+        background-position: top 13% left 10%;
+}
+    .block_equip {
+        display:flex;
+        flex-direction: column !important;
+        align-items: center;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .block_equipe {
+        background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
+        background-repeat: no-repeat;
+        background-size: 33% !important;
+        background-position: bottom 0 right 0% !important;
+        }
+        .contact {
+        background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-16.png');
+        background-repeat: no-repeat;
+        background-size: 30% !important;
+        background-position: bottom 16% left 1% !important;
+        }
+
+/* Commande */
+.cde {
+    margin:0;
+    padding:60px 29px 10px !important;
+    text-align:center;
+    background: #3B8E46;
+}
+.titre1-cde {
+    font-size: 21px !important;
+    padding-bottom:30px;
+    color:#ffff !important;
+}
+.titre2-cde {
+    font-size: 19px !important;
+    text-align:start !important;
+    color:#ffff !important;
+}
+.image-gouts {
+    flex-direction: column !important;
+}
+.overlayC {
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color:inherit;
+    padding: 20px 20px;
+}
+.text-whiteC {
+    display:inline-block;
+    width:100%;
+    font-size: 28px !important;
+    color: #ffff;
+    text-align: center;
+}
+.form {
+    flex-direction: column !important;
+}
+.labelfont {
+    font-size:15px;
+    font-weight:400;
+}
+.separator-vertical {
+    width: 100% !important; 
+    height: 1px !important;
+    background-color: #ffff;
+    margin-left: 0 !important;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.button-cde {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width:100%;
+    height:60px;
+}
+.button {
+    padding: 16px 20px;
+    background-color: #E0B9B4; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:13px;
+}
+
+    /* Footer */
+    footer {
+        max-width: 100%;
+    }
+}
+
 /* iPads */
 @media only screen and (min-width : 768px) and (max-width : 1024px){
 
 /* Menu */
+.adminbar-input {
+    padding: 0 !important;
+    width: 38px!important;
+}
 .main-menu-link {
     font-size: 14px !important;
 }
 #menu-item-26 .text-wrap {
     background: #DC9F96;
-    padding: 30px 60px 30px 60px;
+    padding: 30px 40px 30px 40px !important;
     height: 100px !important;
     color:#fff !important;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 700;
 }
 #menu-item-26 .text-wrap:hover {
@@ -449,7 +619,7 @@ footer {
 }
 #menu-item-28 .text-wrap {
     color:#000 !important;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 400;
 }
 .logo {
@@ -460,60 +630,41 @@ footer {
 }
 
 /* Accueil */
-.energie {
-    font-size: 35px !important;
+.wp-block-group {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
-.plante {
-    padding-bottom: 30px;
+.block_gouts {
+    max-width: 100%;
+    padding: 0 !important;
 }
-.caption {
-    position: absolute;
-    top:50%;
-    left:50%;
-    font-size: 38px;
-    transform: translate(-50%, -50%);
+.gout-row {
+    max-width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    margin: 0 !important;
 }
-.pense {
-    margin-bottom: 60px;
+.wp-block-cover {
+    max-width: 100% !important;
 }
-.block_avis{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 10px;
+.img-gouts {
+    width: 340px; /* Largeur du cadre */
+    height: 250px; /* Hauteur du cadre */
+    overflow: hidden; /* Masquer le contenu qui dépasse du cadre */
 }
-.wp-image-52 {
-    width: 90px !important;
-    height: 100px !important;
+.img-gouts img {
+    max-width: 100% !important;
+    height: auto !important;
 }
-.wp-image-53 {
-    width: 90px !important;
-    height: 100px !important;
+.has-text-align-center {
+    line-height: 0.8;
 }
-.wp-image-57 {
-    width: 90px !important;
-    height: 100px !important;
-}
-.nom {
-    font-size: 23px !important;
-}
-.avis {
-    line-height: 1.3;
-    font-size: 13px !important;
-}
-.wp-block-column-is-layout-flow {
-    flex-basis: 0 ;
-    width: 50% ;
-}
-.banniere {
-	height: 135px;
-}
-.banniere2 {
-    height: 135px;
-}
+.fruit-text {
+    font-size: 39px !important;
+    font-family: 'syne';
 }
 
-/* Rencontre */
+/* Nous rencontrer */
 .block_rencontre {
     padding-top: 0px;
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-2.png');
@@ -537,24 +688,24 @@ footer {
     padding-top: 15px;
     background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
     background-repeat: no-repeat;
-    background-size: 16%;
-    background-position: bottom 0 right 0;
+    background-size: 16% !important;
+    background-position: bottom 0 right 0 !important;
 }
 .contact {
 	background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-16.png');
 	background-repeat: no-repeat;
-	background-size: 20%;
-	background-position: bottom 14% left 18%;
+	background-size: 20% !important;
+	background-position: bottom 14% left 18% !important;
 }
 
-/* Commande */
+/* Commander */
 .cde {
-    padding:60px 60px 10px;
+    padding:60px 60px 10px !important;
     text-align:center;
     background: #3B8E46;
 }
 .titre1-cde {
-    font-size: 30px;
+    font-size: 30px !important;
     padding-bottom:30px;
     color:#ffff !important;
 }
@@ -577,12 +728,12 @@ footer {
 .text-whiteC {
     display:inline-block;
     width:100%;
-    font-size: 18px;
+    font-size: 18px !important;
     color: #ffff;
     text-align: center;
 }
 .form {
-    flex-direction: column;
+    flex-direction: column !important;
     padding: 60px 60px 10px;
 }
 .labelfont {
@@ -596,12 +747,12 @@ footer {
     margin-bottom:30px;
 }
 .separator-vertical {
-    width: 100%; 
-    height: 1px;
+    width: 100% !important; 
+    height: 1px !important;
     background-color: #ffff;
-    margin-left: 0;
-    margin-top: 30px;
-    margin-bottom:30px;
+    margin-left: 0 !important;
+    margin-top: 40px !important;
+    margin-bottom:30px !important;
 }
 .button-cde {
     margin-top: 20px;
@@ -618,171 +769,8 @@ footer {
     font-size:13px;
 }
 
-/* Smartphones */
-@media only screen and (min-width : 320px) and (max-width : 767px) {
-    
-    /* Menu */
-    .oceanwp-mobile-menu-icon a.mobile-menu.opened .oceanwp-close-text {
-        display: none;
-    }
-    .main-menu-link {
-        width: 100%;
-        height: 30%;
-        display: flex;
-        align-items: center;
-        font-size: 14px !important;
-        padding: 0 0 0 40px !important;
-    }
-    .custom-logo-link {
-        display: block;
-        width: 25%;
-        margin: 10px 20px 10px 10px;
-    }
-    .oceanwp-text {
-        display: none;
-    }
-    /* Accueil */
-    .energie {
-        font-size: 18px !important;
-    }
-    .text-wrap {
-        outline: none;
-    }
-    .energie-plante {
-        padding-top: 0 !important;
-    }
-    .plante {
-        padding-top: O !important;
-        padding-bottom: 30px;
-        font-size: 18px !important;
-    }
-    .text_plante {
-        font-size: 16px !important;
-    }
-    .rowimage {
-        flex-direction: column;
-        margin-bottom: 0;
-    }
-    .caption {
-        position: absolute;
-        top:50%;
-        left:50%;
-        font-size: 28px;
-        transform: translate(-50%, -50%);
-    }
-    .block_avis {
-        display: flexbox;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .pense {
-        font-size: 22px !important;
-    }
-    .avis {
-        margin-bottom: 10%;
-    }
-    .banniere {
-        height: 80px;
-    }
-    .banniere2 {
-        height: 80px;
-    }
-    }
-    
-    /* Rencontre */
-    .block_rencontre {
-        padding-top: 0;
-        background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-2.png');
-        background-repeat: no-repeat;
-        background-size: 20%;
-        background-position: top 7% left 10%;
-    }
-    .title_rencontre {
-        padding-top: 20px;
-        font-size: 25px;
-    }
-    .text_rencontre {
-        padding-top: 40px;
-    }
-    .block_equip {
-    display: flexbox;
-    flex-direction: column;
-    }
-    .block_equipe {
-    background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-4.png');
-    background-repeat: no-repeat;
-    background-size: 33%;
-    background-position: bottom 0 right 3%;
+/* Footer */
+footer {
+    max-width: 100%;
 }
-.contact {
-	background-image: url('http://localhost:8888/planty1/wp-content/uploads/2024/02/Group-16.png');
-	background-repeat: no-repeat;
-	background-size: 30%;
-	background-position: bottom 16% left 1%;
-}
-
-/* Commande */
-.cde {
-    margin:0;
-    padding:60px 29px 10px;
-    text-align:center;
-    background: #3B8E46;
-}
-.titre1-cde {
-    font-size: 21px;
-    padding-bottom:30px;
-    color:#ffff !important;
-}
-.titre2-cde {
-    font-size: 19px;
-    text-align:start !important;
-    color:#ffff !important;
-}
-.image-gouts {
-    flex-direction: column;
-}
-.overlayC {
-    position: absolute;
-    top:35%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    background-color:inherit;
-    padding: 20px 20px;
-}
-.text-whiteC {
-    display:inline-block;
-    width:100%;
-    font-size: 28px;
-    color: #ffff;
-    text-align: center;
-}
-.form {
-    flex-direction: column;
-}
-.labelfont {
-    font-size:15px;
-    font-weight:400;
-}
-.separator-vertical {
-    width: 100%; 
-    height: 1px;
-    background-color: #ffff;
-    margin-left: 0;
-    margin-top: 30px;
-    margin-bottom:30px;
-}
-.button-cde {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    width:100%;
-    height:60px;
-}
-.button {
-    padding: 16px 20px;
-    background-color: #E0B9B4; 
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size:13px;
 }
