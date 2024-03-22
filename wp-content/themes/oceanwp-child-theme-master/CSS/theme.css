@@ -419,54 +419,68 @@ footer {
         padding: 0 !important;
         font-size: 19px !important;
     }
+    .gout-text {
+        padding-bottom: 20% !important;
+    }
     .gout-row {
         display: flexbox;
-        flex-direction: column;
-        max-width: 100% !important;
+        flex-direction: column !important;
+        gap: 0 !important;
+        padding: 0 !important;
+        margin-bottom: 0 !important;
     }
-    .wp-image-40 {
-        width: 80% !important;
-        height: 80% !important;
-    }
-    .wp-image-41 {
-        width: 80% !important;
-        height: 80% !important;
-    }
-    .wp-image-42 {
-        width: 80% !important;
-        height: 80% !important;
-    }
+    .wp-image-40,
+    .wp-image-41,
+    .wp-image-42,
     .wp-image-43 {
-        width: 80% !important;
-        height: 80% !important;
+        width: 100% !important;
+        height: auto !important;
     }
     .img-gouts {
-        max-width: 100%;
+        position: relative;
+        left: 51% !important;
     }
     .goutA {
-        max-width: 100%;
+        position: relative;
+        left: 4%;
+        max-width: 90% !important;
+        margin-bottom: 0 !important;
+    }
+    .wp-block-group__inner-container {
+        max-width: 100% !important;
+    }
+    .wp-block-cover__inner-container {
+        max-width: 100% !important;
+        margin-bottom: 0 !important;
+    }
+    .wp-block-cover__background {
+        margin-bottom: 0 !important;
+    }
+    .wp-block-heading {
+        max-width: 100% !important;
     }
     .wp-block-cover {
         position: relative !important;
-        top: 100px;
-        left: 60%;
+        top: 85px !important;
+        left: 50%;
         transform: translate(-50%, -50%) !important;
         background-color:inherit;
-        padding: 20px 20px !important;
     }
     .text-fruit {
         position: relative !important;
         transform: translate(-50%, -50%) !important;
-        left: 38%;
+        top: 20px;
+        left: 50%;
+        font-size: 28px !important;
     }
     .fruit-text {
         position: relative !important;
         transform: translate(-50%, -50%) !important;
-        left: 38%;
-        font-size: 36px !important;
-
+        bottom: 15px;
+        left: 50%;
+        font-size: 28px !important;
     }
-    .wp-block-group {
+    .block_gouts {
         max-width: 100% !important;
     }
     .block_avis {
@@ -518,7 +532,6 @@ footer {
 .cde1 {
     margin: 0;
     padding: 60px 25px 20px;
-
 }
 .cde {
     margin:0;
@@ -527,7 +540,7 @@ footer {
     background: #3B8E46;
 }
 .titre1 {
-    font-size: 21px !important;
+    font-size: 19px !important;
     padding-bottom:30px;
     color:#ffff !important;
 }
@@ -542,7 +555,7 @@ footer {
     gap: 20px !important;
 }
 .formQte {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-right: 40%;
 }
 .form {
@@ -621,17 +634,17 @@ footer {
 /* Accueil */
 .wp-block-group {
     padding-left: 10px !important;
-    padding-right: 10px !important;
 }
 .block_gouts {
     max-width: 100%;
-    padding: 0 !important;
 }
 .gout-row {
     max-width: 100% !important;
     display: flex !important;
     align-items: center !important;
     margin: 0 !important;
+    padding: 0 !important;
+    gap: 0 !important;
 }
 .wp-block-cover {
     max-width: 100% !important;
@@ -652,8 +665,18 @@ footer {
     font-size: 39px !important;
     font-family: 'syne';
 }
+.block_avis {
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
 .nom {
     font-size: 25px !important;
+}
+.avis {
+    font-size: 15px !important;
 }
 
 /* Nous rencontrer */
